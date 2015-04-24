@@ -1,7 +1,18 @@
 <a rel="Exploration" href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." style="border-width:0" src="http://bcdevexchange.org/badge/2.svg" title="Being designed and built, but in the lab. May change, disappear, or be buggy." /></a>
 
-# EnvReportBC-RepoList
-List of repositories administered by Environmental Reporting BC (http://www.env.gov.bc.ca/soe/)
+# Environmental Reporting BC - Repository List
+Index of GitHub repositories administered by [Environmental Reporting BC](http://www.env.gov.bc.ca/soe/)
+
+Environmental Reporting BC provides access to scientific data and information about our environment and how it relates to British Columbians. This information comes in the form of indicators that examine the state and trends of different aspects of our environment.
+
+
+***
+
+## Indicator Analyses 
+[groundwater_levels](https://github.com/bcgov/groundwater_levels) - A set of [R](http://www.r-project.org) scripts to reproduce the 2013 analysis of [long-term trends in groundwater levels](http://www.env.gov.bc.ca/soe/indicators/water/wells/index.html?WT.ac=GH_wells).
+
+## Packages
+[bcgroundwater](https://github.com/bcgov/bcgroundwater) - An [R](http://www.r-project.org) package to facilitate analysis and visualization of British Columbia groundwater data.
 
 
 ## License
