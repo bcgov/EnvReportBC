@@ -1,1 +1,1 @@
-knitr::knit("README.Rmd", output = "README.md")
+rmarkdown::render("README.Rmd")
