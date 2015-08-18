@@ -7,8 +7,8 @@ output:
 <!-- README.md is generated from README.Rmd. Please edit that file and re-knit-->
 
 ```{r echo=FALSE}
-library(httr)
-library(rvest)
+library(httr) #accessing data from web
+library(rvest) #web scraping
 
 ## Get the html of the badge from the readme of a bcgov repo
 get_badge <- function(repo) {
@@ -45,27 +45,50 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 ## Indicator Analyses 
 
+#### [pm25_caaqs](https://github.com/bcgov/pm25_caaqs) 
+
+* A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of fine particulate matter in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/fine_pm.html).
+* `r get_badge("pm25_caaqs")` 
+
+
+#### [ozone_caaqs](https://github.com/bcgov/ozone) 
+
+* A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of ground-level ozone in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/ozone.html).
+* `r get_badge("ozone_caaqs")` 
+
+
 #### [groundwater_levels](https://github.com/bcgov/groundwater_levels) 
 
-* A set of [R](http://www.r-project.org) scripts to reproduce the 2013 analysis of [long-term trends in groundwater levels](http://www.env.gov.bc.ca/soe/indicators/water/wells/index.html?WT.ac=GH_wells).
+* A set of [R](http://www.r-project.org) scripts to reproduce the 2013 analysis of [long-term trends in groundwater levels in B.C.](http://www.env.gov.bc.ca/soe/indicators/water/wells/index.html).
 * `r get_badge("groundwater_levels")` 
+
+
 
 ## [R](http://www.r-project.org) Packages
 
-#### [bcgroundwater](https://github.com/bcgov/bcgroundwater)
+#### [rcaaqs](https://github.com/bcgov/rcaaqs)
 
-* An [R](http://www.r-project.org) package to facilitate analysis and visualization of British Columbia groundwater data.
-* `r get_badge("bcgroundwater")`
+* An [R](www.r-project.org) package to facilitate the calculation of air quality metrics according to the Canadian Ambient Air Quality Standards ([CAAQS](http://www.ccme.ca/en/current_priorities/air/caaqs.html)).
+* `r get_badge("rcaaqs")`
+
+#### [bcmaps](https://github.com/bcgov/bcmaps)
+
+* An [R](http://www.r-project.org) package of some common map layers for British Columbia.
+* `r get_badge("bcmaps")`
+
 
 #### [envreportutils](https://github.com/bcgov/envreportutils)
 
 * An [R](http://www.r-project.org) package of various utilities and functions for common plotting tasks.
 * `r get_badge("envreportutils")` 
 
-#### [bcmaps](https://github.com/bcgov/bcmaps)
 
-* An [R](http://www.r-project.org) package of some common map layers for British Columbia.
-* `r get_badge("bcmaps")`
+#### [bcgroundwater](https://github.com/bcgov/bcgroundwater)
+
+* An [R](http://www.r-project.org) package to facilitate analysis and visualization of British Columbia groundwater data.
+* `r get_badge("bcgroundwater")`
+
+
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
