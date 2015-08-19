@@ -45,13 +45,13 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 ## Indicator Analyses 
 
-#### [pm25_caaqs](https://github.com/bcgov/pm25_caaqs) 
+#### [pm25_caaqs_analysis](https://github.com/bcgov/pm25_caaqs_analysis) 
 
 * A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of fine particulate matter in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/fine_pm.html).
 * `r get_badge("pm25_caaqs")` 
 
 
-#### [ozone_caaqs](https://github.com/bcgov/ozone) 
+#### [ozone_caaqs_analysis](https://github.com/bcgov/ozone_caaqs_analysis) 
 
 * A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of ground-level ozone in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/ozone.html).
 * `r get_badge("ozone_caaqs")` 
