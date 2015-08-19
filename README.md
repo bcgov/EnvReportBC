@@ -11,28 +11,43 @@ Environmental Reporting BC provides access to scientific data and information ab
 Indicator Analyses
 ------------------
 
+#### [pm25\_caaqs\_analysis](https://github.com/bcgov/pm25_caaqs_analysis)
+
+-   A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of fine particulate matter in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/fine_pm.html)
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/2058739d64533475b124c5ce3d19a3865562fd29/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f332e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="http://bcdevexchange.org/badge/3.svg" style="max-width:100%;"/></a>
+
+#### [ozone\_caaqs\_analysis](https://github.com/bcgov/ozone_caaqs_analysis)
+
+-   A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of ground-level ozone in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/ozone.html)
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/2058739d64533475b124c5ce3d19a3865562fd29/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f332e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="http://bcdevexchange.org/badge/3.svg" style="max-width:100%;"/></a>
+
 #### [groundwater\_levels](https://github.com/bcgov/groundwater_levels)
 
--   A set of [R](http://www.r-project.org) scripts to reproduce the 2013 analysis of [long-term trends in groundwater levels](http://www.env.gov.bc.ca/soe/indicators/water/wells/index.html?WT.ac=GH_wells).
+-   A set of [R](http://www.r-project.org) scripts to reproduce the 2013 analysis of [long-term trends in groundwater levels in B.C.](http://www.env.gov.bc.ca/soe/indicators/water/wells/index.html)
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/2058739d64533475b124c5ce3d19a3865562fd29/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f332e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="http://bcdevexchange.org/badge/3.svg" style="max-width:100%;"/> </a>
 
 [R](http://www.r-project.org) Packages
 --------------------------------------
 
-#### [bcgroundwater](https://github.com/bcgov/bcgroundwater)
+#### [rcaaqs](https://github.com/bcgov/rcaaqs)
 
--   An [R](http://www.r-project.org) package to facilitate analysis and visualization of British Columbia groundwater data.
--   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/2058739d64533475b124c5ce3d19a3865562fd29/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f332e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="http://bcdevexchange.org/badge/3.svg" style="max-width:100%;"/></a>
+-   An [R](www.r-project.org) package to facilitate the calculation of air quality metrics according to the Canadian Ambient Air Quality Standards ([CAAQS](http://www.ccme.ca/en/current_priorities/air/caaqs.html)).
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="Being designed and built, but in the lab. May change, disappear, or be &#10;buggy." src="https://camo.githubusercontent.com/ac1d59ca4e1646f4f3d90f79889db7abd3436517/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f322e737667" title="Being designed and built, but in the lab. May change, disappear, or be &#10;buggy." data-canonical-src="http://bcdevexchange.org/badge/2.svg" style="max-width:100%;"/> </a>
+
+#### [bcmaps](https://github.com/bcgov/bcmaps)
+
+-   An [R](http://www.r-project.org) package of some common map layers for British Columbia.
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="Being designed and built, but in the lab. May change, disappear, or be &#10;  buggy." src="https://camo.githubusercontent.com/ac1d59ca4e1646f4f3d90f79889db7abd3436517/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f322e737667" title="Being designed and built, but in the lab. May change, disappear, or be &#10;  buggy." data-canonical-src="http://bcdevexchange.org/badge/2.svg" style="max-width:100%;"/></a>
 
 #### [envreportutils](https://github.com/bcgov/envreportutils)
 
 -   An [R](http://www.r-project.org) package of various utilities and functions for common plotting tasks.
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." src="https://camo.githubusercontent.com/ac1d59ca4e1646f4f3d90f79889db7abd3436517/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f322e737667" title="Being designed and built, but in the lab. May change, disappear, or be buggy." data-canonical-src="http://bcdevexchange.org/badge/2.svg" style="max-width:100%;"/> </a>
 
-#### [bcmaps](https://github.com/bcgov/bcmaps)
+#### [bcgroundwater](https://github.com/bcgov/bcgroundwater)
 
--   An [R](http://www.r-project.org) package of some common map layers for British Columbia.
--   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="Being designed and built, but in the lab. May change, disappear, or be &#10;  buggy." src="https://camo.githubusercontent.com/ac1d59ca4e1646f4f3d90f79889db7abd3436517/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f322e737667" title="Being designed and built, but in the lab. May change, disappear, or be &#10;  buggy." data-canonical-src="http://bcdevexchange.org/badge/2.svg" style="max-width:100%;"/></a>
+-   An [R](http://www.r-project.org) package to facilitate analysis and visualization of British Columbia groundwater data.
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/2058739d64533475b124c5ce3d19a3865562fd29/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f332e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="http://bcdevexchange.org/badge/3.svg" style="max-width:100%;"/></a>
 
 License
 -------

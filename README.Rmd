@@ -6,7 +6,7 @@ output:
 
 <!-- README.md is generated from README.Rmd. Please edit that file and re-knit-->
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning = FALSE}
 library(httr) #accessing data from web
 library(rvest) #web scraping
 
@@ -47,19 +47,19 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 #### [pm25_caaqs_analysis](https://github.com/bcgov/pm25_caaqs_analysis) 
 
-* A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of fine particulate matter in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/fine_pm.html).
-* `r get_badge("pm25_caaqs")` 
+* A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of fine particulate matter in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/fine_pm.html)
+* `r get_badge("pm25_caaqs_analysis")` 
 
 
 #### [ozone_caaqs_analysis](https://github.com/bcgov/ozone_caaqs_analysis) 
 
-* A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of ground-level ozone in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/ozone.html).
-* `r get_badge("ozone_caaqs")` 
+* A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of ground-level ozone in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/ozone.html)
+* `r get_badge("ozone_caaqs_analysis")` 
 
 
 #### [groundwater_levels](https://github.com/bcgov/groundwater_levels) 
 
-* A set of [R](http://www.r-project.org) scripts to reproduce the 2013 analysis of [long-term trends in groundwater levels in B.C.](http://www.env.gov.bc.ca/soe/indicators/water/wells/index.html).
+* A set of [R](http://www.r-project.org) scripts to reproduce the 2013 analysis of [long-term trends in groundwater levels in B.C.](http://www.env.gov.bc.ca/soe/indicators/water/wells/index.html)
 * `r get_badge("groundwater_levels")` 
 
 
