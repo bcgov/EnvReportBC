@@ -1,0 +1,94 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file and re-knit-->
+
+```{r echo=FALSE, warning = FALSE}
+library(httr) #accessing data from web
+library(rvest) #web scraping
+
+## Get the html of the badge from the readme of a bcgov repo
+get_badge <- function(repo) {
+  url <- paste0("https://api.github.com/repos/bcgov/", repo, "/readme")
+  res <- httr::GET(url = url,
+                   add_headers(Accept = "application/vnd.github.VERSION.html"))
+  stop_for_status(res)
+  html <- rvest::html(rawToChar(content(res)))
+  tagged_badge_node <- rvest::html_node(html, "#user-content-devex-badge a")
+  if (is.null(tagged_badge_node)) {
+    ret <- find_badge(html)
+  } else {
+    ret <- paste0(gsub("\\n", "", as(tagged_badge_node, "character")), collapse = "")
+  }
+  ret
+}
+
+## Find the badge from the 'a' nodes
+find_badge <- function(html) {
+  a_nodes <- rvest::html_nodes(html, "a")
+  node_text <- vapply(a_nodes, function(x) as(x, "character"), FUN.VALUE = character(1))
+  badge_nodes <- grep("BCDevExchange.+/projectstates.md", node_text)
+  node_text[badge_nodes[1]]
+}
+```
+
+<a rel="Delivery" href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." style="border-width:0" src="http://bcdevexchange.org/badge/3.svg" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." /></a>
+
+# Environmental Reporting BC - Repository List
+Index of GitHub repositories administered by [Environmental Reporting BC](http://www.env.gov.bc.ca/soe/)
+
+Environmental Reporting BC provides access to scientific data and information about our environment and how it relates to British Columbians. This information comes in the form of indicators that examine the state and trends of different aspects of our environment.
+
+
+## Indicator Analyses 
+
+#### [pm25_caaqs_analysis](https://github.com/bcgov/pm25_caaqs_analysis) 
+
+* A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of fine particulate matter in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/fine_pm.html)
+* `r get_badge("pm25_caaqs_analysis")` 
+
+
+#### [ozone_caaqs_analysis](https://github.com/bcgov/ozone_caaqs_analysis) 
+
+* A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of ground-level ozone in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/ozone.html)
+* `r get_badge("ozone_caaqs_analysis")` 
+
+
+#### [groundwater_levels](https://github.com/bcgov/groundwater_levels) 
+
+* A set of [R](http://www.r-project.org) scripts to reproduce the 2013 analysis of [long-term trends in groundwater levels in B.C.](http://www.env.gov.bc.ca/soe/indicators/water/wells/index.html)
+* `r get_badge("groundwater_levels")` 
+
+
+
+## [R](http://www.r-project.org) Packages
+
+#### [rcaaqs](https://github.com/bcgov/rcaaqs)
+
+* An [R](www.r-project.org) package to facilitate the calculation of air quality metrics according to the Canadian Ambient Air Quality Standards ([CAAQS](http://www.ccme.ca/en/current_priorities/air/caaqs.html)).
+* `r get_badge("rcaaqs")`
+
+#### [bcmaps](https://github.com/bcgov/bcmaps)
+
+* An [R](http://www.r-project.org) package of some common map layers for British Columbia.
+* `r get_badge("bcmaps")`
+
+
+#### [envreportutils](https://github.com/bcgov/envreportutils)
+
+* An [R](http://www.r-project.org) package of various utilities and functions for common plotting tasks.
+* `r get_badge("envreportutils")` 
+
+
+#### [bcgroundwater](https://github.com/bcgov/bcgroundwater)
+
+* An [R](http://www.r-project.org) package to facilitate analysis and visualization of British Columbia groundwater data.
+* `r get_badge("bcgroundwater")`
+
+
+
+## License
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
