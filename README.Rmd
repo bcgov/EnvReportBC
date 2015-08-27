@@ -66,6 +66,11 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 ## [R](http://www.r-project.org) Packages
 
+#### [wqbc](https://github.com/bcgov/wqbc)
+
+* An [R](www.r-project.org) package for water quality thresholds and [CCME](http://www.ccme.ca/en/resources/canadian_environmental_quality_guidelines/index.html) water quality index calculation for British Columbia.
+* `r get_badge("wqbc")`
+
 #### [rcaaqs](https://github.com/bcgov/rcaaqs)
 
 * An [R](www.r-project.org) package to facilitate the calculation of air quality metrics according to the Canadian Ambient Air Quality Standards ([CAAQS](http://www.ccme.ca/en/current_priorities/air/caaqs.html)).

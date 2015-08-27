@@ -29,6 +29,11 @@ Indicator Analyses
 [R](http://www.r-project.org) Packages
 --------------------------------------
 
+#### [wqbc](https://github.com/bcgov/wqbc)
+
+-   An [R](www.r-project.org) package for water quality thresholds and [CCME](http://www.ccme.ca/en/resources/canadian_environmental_quality_guidelines/index.html) water quality index calculation for British Columbia.
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." src="https://camo.githubusercontent.com/ac1d59ca4e1646f4f3d90f79889db7abd3436517/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f322e737667" title="Being designed and built, but in the lab. May change, disappear, or be buggy." data-canonical-src="http://bcdevexchange.org/badge/2.svg" style="max-width:100%;"/> </a>
+
 #### [rcaaqs](https://github.com/bcgov/rcaaqs)
 
 -   An [R](www.r-project.org) package to facilitate the calculation of air quality metrics according to the Canadian Ambient Air Quality Standards ([CAAQS](http://www.ccme.ca/en/current_priorities/air/caaqs.html)).
@@ -37,7 +42,7 @@ Indicator Analyses
 #### [bcmaps](https://github.com/bcgov/bcmaps)
 
 -   An [R](http://www.r-project.org) package of some common map layers for British Columbia.
--   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="Being designed and built, but in the lab. May change, disappear, or be &#10;  buggy." src="https://camo.githubusercontent.com/ac1d59ca4e1646f4f3d90f79889db7abd3436517/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f322e737667" title="Being designed and built, but in the lab. May change, disappear, or be &#10;  buggy." data-canonical-src="http://bcdevexchange.org/badge/2.svg" style="max-width:100%;"/></a>
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." src="https://camo.githubusercontent.com/ac1d59ca4e1646f4f3d90f79889db7abd3436517/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f322e737667" title="Being designed and built, but in the lab. May change, disappear, or be buggy." data-canonical-src="http://bcdevexchange.org/badge/2.svg" style="max-width:100%;"/> </a>
 
 #### [envreportutils](https://github.com/bcgov/envreportutils)
 
