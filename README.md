@@ -1,6 +1,4 @@
 <!-- README.md is generated from README.Rmd. Please edit that file and re-knit-->
-    ## Loading required package: xml2
-
 <a rel="Delivery" href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." style="border-width:0" src="http://bcdevexchange.org/badge/3.svg" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." /></a>
 
 Environmental Reporting BC - Repository List
@@ -12,6 +10,11 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 Indicator Analyses
 ------------------
+
+#### [conservation\_lands\_analysis](https://github.com/bcgov/conservation_lands_analysis)
+
+-   A set of [R](http://www.r-project.org) scripts to summarise trends and status in establishment of conservation lands in British Columbia
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/2058739d64533475b124c5ce3d19a3865562fd29/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f332e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="http://bcdevexchange.org/badge/3.svg" style="max-width:100%;"/></a>
 
 #### [pm25\_caaqs\_analysis](https://github.com/bcgov/pm25_caaqs_analysis)
 

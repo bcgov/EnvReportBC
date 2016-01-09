@@ -8,7 +8,7 @@ output:
 
 ```{r setup, echo=FALSE, warning=FALSE}
 library(httr) #accessing data from web
-library(rvest) #web scraping
+library(rvest, quietly = TRUE) #web scraping
 
 ## Get the html of the badge from the readme of a bcgov repo
 get_badge <- function(repo) {
@@ -46,6 +46,11 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 
 ## Indicator Analyses 
+
+#### [conservation_lands_analysis](https://github.com/bcgov/conservation_lands_analysis)
+
+* A set of [R](http://www.r-project.org) scripts to summarise trends and status in establishment of conservation lands in British Columbia
+* `r get_badge("pm25_caaqs_analysis")` 
 
 #### [pm25_caaqs_analysis](https://github.com/bcgov/pm25_caaqs_analysis) 
 
