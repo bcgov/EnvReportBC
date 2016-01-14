@@ -47,10 +47,10 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 ## Indicator Analyses 
 
-#### [conservation_lands_analysis](https://github.com/bcgov/conservation_lands_analysis)
+#### [protected_areas_analysis](https://github.com/bcgov/protected_areas_analysis)
 
-* A set of [R](http://www.r-project.org) scripts to summarise trends and status in establishment of conservation lands in British Columbia.
-* `r get_badge("conservation_lands_analysis")` 
+* A set of [R](http://www.r-project.org) scripts to summarise trends and status in establishment of parks & protected areas in British Columbia.
+* `r get_badge("protected_areas_analysis")`
 
 #### [pm25_caaqs_analysis](https://github.com/bcgov/pm25_caaqs_analysis) 
 
