@@ -11,6 +11,11 @@ Environmental Reporting BC provides access to scientific data and information ab
 Indicator Analyses
 ------------------
 
+#### [bc\_population\_indicator](https://github.com/bcgov/bc_population_indicator)
+
+-   A set of [R](http://www.r-project.org) scripts to develop an indicator of population change in B.C.
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="An idea being explored and shaped. Open for discussion, but may never go anywhere." src="https://camo.githubusercontent.com/1aa819a94b912222d82c328f0af7f91e49cdc317/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f312e737667" title="An idea being explored and shaped. Open for discussion, but may never go anywhere." data-canonical-src="http://bcdevexchange.org/badge/1.svg" style="max-width:100%;"/></a>
+
 #### [protected\_areas\_analysis](https://github.com/bcgov/protected_areas_analysis)
 
 -   A set of [R](http://www.r-project.org) scripts to summarise trends and status in establishment of parks & protected areas in British Columbia.
