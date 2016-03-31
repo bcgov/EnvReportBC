@@ -18,7 +18,7 @@ Indicator Analyses
 
 #### [protected\_areas\_analysis](https://github.com/bcgov/protected_areas_analysis)
 
--   A set of [R](http://www.r-project.org) scripts to summarise trends and status in establishment of parks & protected areas in British Columbia.
+-   A set of [R](http://www.r-project.org) scripts to summarise trends and status in establishment of protected areas in British Columbia.
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." src="https://camo.githubusercontent.com/ac1d59ca4e1646f4f3d90f79889db7abd3436517/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f322e737667" title="Being designed and built, but in the lab. May change, disappear, or be buggy." data-canonical-src="http://bcdevexchange.org/badge/2.svg" style="max-width:100%;"/></a>
 
 #### [pm25\_caaqs\_analysis](https://github.com/bcgov/pm25_caaqs_analysis)
