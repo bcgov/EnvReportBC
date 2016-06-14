@@ -13,8 +13,8 @@ Indicator Analyses
 
 #### [bc\_population\_indicator](https://github.com/bcgov/bc_population_indicator)
 
--   A set of [R](http://www.r-project.org) scripts to develop an indicator of population change in B.C.
--   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="An idea being explored and shaped. Open for discussion, but may never go anywhere." src="https://camo.githubusercontent.com/1aa819a94b912222d82c328f0af7f91e49cdc317/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f312e737667" title="An idea being explored and shaped. Open for discussion, but may never go anywhere." data-canonical-src="http://bcdevexchange.org/badge/1.svg" style="max-width:100%;"/></a>
+-   A set of [R](http://www.r-project.org) scripts to populate an indicator on trends in British Columbia's population size and distribution (2015).
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/2058739d64533475b124c5ce3d19a3865562fd29/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f332e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="http://bcdevexchange.org/badge/3.svg" style="max-width:100%;"/></a>
 
 #### [protected\_areas\_analysis](https://github.com/bcgov/protected_areas_analysis)
 
