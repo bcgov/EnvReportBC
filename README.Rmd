@@ -49,13 +49,13 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 #### [bc_population_indicator](https://github.com/bcgov/bc_population_indicator)
 
-* A set of [R](http://www.r-project.org) scripts to populate an indicator on trends in British Columbia's population size and distribution (2015).
+* A set of [R](http://www.r-project.org) scripts to populate an indicator on trends in British Columbia's population size and distribution.
 * `r get_badge("bc_population_indicator")`
 
-#### [protected_areas_analysis](https://github.com/bcgov/protected_areas_analysis)
+#### [protected-lands-and-waters-analysis](https://github.com/bcgov/protected-lands-and-waters-analysis)
 
-* A set of [R](http://www.r-project.org) scripts to summarise trends and status in establishment of protected areas in British Columbia.
-* `r get_badge("protected_areas_analysis")`
+* A set of [R](http://www.r-project.org) scripts for summarising trends and current amounts of protected lands and waters in British Columbia.
+* `r get_badge("protected-lands-and-waters-analysis")`
 
 #### [pm25_caaqs_analysis](https://github.com/bcgov/pm25_caaqs_analysis) 
 
