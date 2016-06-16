@@ -49,24 +49,24 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 #### [bc-population-indicator](https://github.com/bcgov/bc-population-indicator)
 
-* A set of [R](http://www.r-project.org) scripts to populate an indicator on trends in British Columbia's population size and distribution.
+* A set of [R](http://www.r-project.org) scripts to populate an indicator on [trends in British Columbia's population size and distribution](http://www.env.gov.bc.ca/soe/indicators/sustainability/bc_population).
 * `r get_badge("bc-population-indicator")`
 
 #### [protected-lands-and-waters-analysis](https://github.com/bcgov/protected-lands-and-waters-analysis)
 
-* A set of [R](http://www.r-project.org) scripts for summarising trends and current amounts of protected lands and waters in British Columbia.
+* A set of [R](http://www.r-project.org) scripts for summarising [trends and current amounts of protected lands and waters in British Columbia](http://www.env.gov.bc.ca/soe/indicators/land/protected-lands-and-waters).
 * `r get_badge("protected-lands-and-waters-analysis")`
 
-#### [pm25_caaqs_analysis](https://github.com/bcgov/pm25_caaqs_analysis) 
+#### [pm25-caaqs-analysis](https://github.com/bcgov/pm25-caaqs-analysis) 
 
 * A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of fine particulate matter in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/fine_pm.html)
-* `r get_badge("pm25_caaqs_analysis")` 
+* `r get_badge("pm25-caaqs-analysis")` 
 
 
-#### [ozone_caaqs_analysis](https://github.com/bcgov/ozone_caaqs_analysis) 
+#### [ozone-caaqs-analysis](https://github.com/bcgov/ozone-caaqs-analysis) 
 
 * A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of ground-level ozone in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/ozone.html)
-* `r get_badge("ozone_caaqs_analysis")` 
+* `r get_badge("ozone-caaqs-analysis")` 
 
 
 #### [groundwater-levels](https://github.com/bcgov/groundwater-levels) 

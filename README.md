@@ -13,20 +13,20 @@ Indicator Analyses
 
 #### [bc-population-indicator](https://github.com/bcgov/bc-population-indicator)
 
--   A set of [R](http://www.r-project.org) scripts to populate an indicator on trends in British Columbia's population size and distribution.
+-   A set of [R](http://www.r-project.org) scripts to populate an indicator on [trends in British Columbia's population size and distribution](http://www.env.gov.bc.ca/soe/indicators/sustainability/bc_population).
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo2.githubusercontent.com/2058739d64533475b124c5ce3d19a3865562fd29/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f332e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="http://bcdevexchange.org/badge/3.svg" style="max-width:100%;"/></a>
 
 #### [protected-lands-and-waters-analysis](https://github.com/bcgov/protected-lands-and-waters-analysis)
 
--   A set of [R](http://www.r-project.org) scripts for summarising trends and current amounts of protected lands and waters in British Columbia.
+-   A set of [R](http://www.r-project.org) scripts for summarising [trends and current amounts of protected lands and waters in British Columbia](http://www.env.gov.bc.ca/soe/indicators/land/protected-lands-and-waters).
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo2.githubusercontent.com/2058739d64533475b124c5ce3d19a3865562fd29/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f332e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="http://bcdevexchange.org/badge/3.svg" style="max-width:100%;"/> </a>
 
-#### [pm25\_caaqs\_analysis](https://github.com/bcgov/pm25_caaqs_analysis)
+#### [pm25-caaqs-analysis](https://github.com/bcgov/pm25-caaqs-analysis)
 
 -   A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of fine particulate matter in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/fine_pm.html)
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo2.githubusercontent.com/2058739d64533475b124c5ce3d19a3865562fd29/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f332e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="http://bcdevexchange.org/badge/3.svg" style="max-width:100%;"/></a>
 
-#### [ozone\_caaqs\_analysis](https://github.com/bcgov/ozone_caaqs_analysis)
+#### [ozone-caaqs-analysis](https://github.com/bcgov/ozone-caaqs-analysis)
 
 -   A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of ground-level ozone in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/ozone.html)
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo2.githubusercontent.com/2058739d64533475b124c5ce3d19a3865562fd29/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f332e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="http://bcdevexchange.org/badge/3.svg" style="max-width:100%;"/></a>
