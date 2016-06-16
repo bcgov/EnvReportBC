@@ -47,7 +47,7 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 ## Indicator Analyses 
 
-#### [bc_population_indicator](https://github.com/bcgov/bc_population_indicator)
+#### [bc-population-indicator](https://github.com/bcgov/bc-population-indicator)
 
 * A set of [R](http://www.r-project.org) scripts to populate an indicator on trends in British Columbia's population size and distribution.
 * `r get_badge("bc_population_indicator")`

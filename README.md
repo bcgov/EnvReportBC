@@ -11,7 +11,7 @@ Environmental Reporting BC provides access to scientific data and information ab
 Indicator Analyses
 ------------------
 
-#### [bc\_population\_indicator](https://github.com/bcgov/bc_population_indicator)
+#### [bc-population-indicator](https://github.com/bcgov/bc-population-indicator)
 
 -   A set of [R](http://www.r-project.org) scripts to populate an indicator on trends in British Columbia's population size and distribution.
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo2.githubusercontent.com/2058739d64533475b124c5ce3d19a3865562fd29/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f332e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="http://bcdevexchange.org/badge/3.svg" style="max-width:100%;"/></a>
