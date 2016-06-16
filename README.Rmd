@@ -50,7 +50,7 @@ Environmental Reporting BC provides access to scientific data and information ab
 #### [bc-population-indicator](https://github.com/bcgov/bc-population-indicator)
 
 * A set of [R](http://www.r-project.org) scripts to populate an indicator on trends in British Columbia's population size and distribution.
-* `r get_badge("bc_population_indicator")`
+* `r get_badge("bc-population-indicator")`
 
 #### [protected-lands-and-waters-analysis](https://github.com/bcgov/protected-lands-and-waters-analysis)
 
@@ -69,10 +69,10 @@ Environmental Reporting BC provides access to scientific data and information ab
 * `r get_badge("ozone_caaqs_analysis")` 
 
 
-#### [groundwater_levels](https://github.com/bcgov/groundwater_levels) 
+#### [groundwater-levels](https://github.com/bcgov/groundwater-levels) 
 
 * A set of [R](http://www.r-project.org) scripts to reproduce the 2013 analysis of [long-term trends in groundwater levels in B.C.](http://www.env.gov.bc.ca/soe/indicators/water/wells/index.html)
-* `r get_badge("groundwater_levels")` 
+* `r get_badge("groundwater-levels")` 
 
 
 
