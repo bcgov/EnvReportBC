@@ -4,7 +4,7 @@
 Environmental Reporting BC - Repository List
 ============================================
 
-Index of GitHub repositories administered by [Environmental Reporting BC](http://www.env.gov.bc.ca/soe/)
+Index of GitHub repositories administered by [Environmental Reporting BC](http://www2.gov.bc.ca/gov/content?id=FF80E0B985F245CEA62808414D78C41B)
 
 Environmental Reporting BC provides access to scientific data and information about our environment and how it relates to British Columbians. This information comes in the form of indicators that examine the state and trends of different aspects of our environment.
 
@@ -13,7 +13,7 @@ Indicator Analyses
 
 #### [bc-population-indicator](https://github.com/bcgov/bc-population-indicator)
 
--   A set of [R](http://www.r-project.org) scripts to populate an indicator on [trends in British Columbia's population size and distribution](http://www.env.gov.bc.ca/soe/indicators/sustainability/bc_population).
+-   A set of [R](http://www.r-project.org) scripts to populate an indicator on [trends in British Columbia's population size and distribution](http://www.env.gov.bc.ca/soe/indicators/sustainability/bc-population).
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/2058739d64533475b124c5ce3d19a3865562fd29/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f332e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="http://bcdevexchange.org/badge/3.svg" style="max-width:100%;"/></a>
 
 #### [protected-lands-and-waters-analysis](https://github.com/bcgov/protected-lands-and-waters-analysis)
@@ -23,7 +23,7 @@ Indicator Analyses
 
 #### [pm25-caaqs-analysis](https://github.com/bcgov/pm25-caaqs-analysis)
 
--   A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of fine particulate matter in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/fine_pm.html)
+-   A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of fine particulate matter in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/fine-pm.html)
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/2058739d64533475b124c5ce3d19a3865562fd29/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f332e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="http://bcdevexchange.org/badge/3.svg" style="max-width:100%;"/></a>
 
 #### [ozone-caaqs-analysis](https://github.com/bcgov/ozone-caaqs-analysis)
@@ -33,7 +33,7 @@ Indicator Analyses
 
 #### [groundwater-levels](https://github.com/bcgov/groundwater-levels)
 
--   A set of [R](http://www.r-project.org) scripts to reproduce the 2013 analysis of [long-term trends in groundwater levels in B.C.](http://www.env.gov.bc.ca/soe/indicators/water/wells/index.html)
+-   A set of [R](http://www.r-project.org) scripts to reproduce the 2013 analysis of [long-term trends in groundwater levels in B.C.](http://www.env.gov.bc.ca/soe/indicators/water/groundwater-levels.html)
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/2058739d64533475b124c5ce3d19a3865562fd29/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f332e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="http://bcdevexchange.org/badge/3.svg" style="max-width:100%;"/> </a>
 
 [R](http://www.r-project.org) Packages

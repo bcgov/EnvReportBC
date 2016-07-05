@@ -40,7 +40,7 @@ find_badge <- function(html) {
 <a rel="Delivery" href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." style="border-width:0" src="http://bcdevexchange.org/badge/3.svg" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." /></a>
 
 # Environmental Reporting BC - Repository List
-Index of GitHub repositories administered by [Environmental Reporting BC](http://www.env.gov.bc.ca/soe/)
+Index of GitHub repositories administered by [Environmental Reporting BC](http://www2.gov.bc.ca/gov/content?id=FF80E0B985F245CEA62808414D78C41B)
 
 Environmental Reporting BC provides access to scientific data and information about our environment and how it relates to British Columbians. This information comes in the form of indicators that examine the state and trends of different aspects of our environment.
 
@@ -49,7 +49,7 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 #### [bc-population-indicator](https://github.com/bcgov/bc-population-indicator)
 
-* A set of [R](http://www.r-project.org) scripts to populate an indicator on [trends in British Columbia's population size and distribution](http://www.env.gov.bc.ca/soe/indicators/sustainability/bc_population).
+* A set of [R](http://www.r-project.org) scripts to populate an indicator on [trends in British Columbia's population size and distribution](http://www.env.gov.bc.ca/soe/indicators/sustainability/bc-population).
 * `r get_badge("bc-population-indicator")`
 
 #### [protected-lands-and-waters-analysis](https://github.com/bcgov/protected-lands-and-waters-analysis)
@@ -59,7 +59,7 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 #### [pm25-caaqs-analysis](https://github.com/bcgov/pm25-caaqs-analysis) 
 
-* A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of fine particulate matter in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/fine_pm.html)
+* A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of fine particulate matter in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/fine-pm.html)
 * `r get_badge("pm25-caaqs-analysis")` 
 
 
@@ -71,7 +71,7 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 #### [groundwater-levels](https://github.com/bcgov/groundwater-levels) 
 
-* A set of [R](http://www.r-project.org) scripts to reproduce the 2013 analysis of [long-term trends in groundwater levels in B.C.](http://www.env.gov.bc.ca/soe/indicators/water/wells/index.html)
+* A set of [R](http://www.r-project.org) scripts to reproduce the 2013 analysis of [long-term trends in groundwater levels in B.C.](http://www.env.gov.bc.ca/soe/indicators/water/groundwater-levels.html)
 * `r get_badge("groundwater-levels")` 
 
 
