@@ -78,6 +78,10 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 ## [R](http://www.r-project.org) Packages
 
+#### [rems](https://github.com/bcgov/rems)
+* An [R](www.r-project.org) package to download, import, and filter data from British Columbia's [Environmental Monitoring System (EMS)](http://www2.gov.bc.ca/gov/content?id=47D094EF8CF94B5A85F62F03D4956C0C) into R.
+* `r get_badge("rems")`
+
 #### [wqbc](https://github.com/bcgov/wqbc)
 
 * An [R](www.r-project.org) package for water quality thresholds and [CCME](http://www.ccme.ca/en/resources/canadian_environmental_quality_guidelines/index.html) water quality index calculation for British Columbia.

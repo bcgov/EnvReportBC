@@ -39,6 +39,11 @@ Indicator Analyses
 [R](http://www.r-project.org) Packages
 --------------------------------------
 
+#### [rems](https://github.com/bcgov/rems)
+
+-   An [R](www.r-project.org) package to download, import, and filter data from British Columbia's [Environmental Monitoring System (EMS)](http://www2.gov.bc.ca/gov/content?id=47D094EF8CF94B5A85F62F03D4956C0C) into R.
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." src="https://camo.githubusercontent.com/ac1d59ca4e1646f4f3d90f79889db7abd3436517/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f322e737667" title="Being designed and built, but in the lab. May change, disappear, or be buggy." data-canonical-src="http://bcdevexchange.org/badge/2.svg" style="max-width:100%;"/> </a>
+
 #### [wqbc](https://github.com/bcgov/wqbc)
 
 -   An [R](www.r-project.org) package for water quality thresholds and [CCME](http://www.ccme.ca/en/resources/canadian_environmental_quality_guidelines/index.html) water quality index calculation for British Columbia.
