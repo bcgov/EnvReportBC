@@ -45,7 +45,13 @@ Index of GitHub repositories administered by [Environmental Reporting BC](http:/
 Environmental Reporting BC provides access to scientific data and information about our environment and how it relates to British Columbians. This information comes in the form of indicators that examine the state and trends of different aspects of our environment.
 
 
-## Indicator Analyses 
+## Indicators
+
+#### [ghg-emissions-indicator](https://github.com/bcgov/ghg-emissions-indicator)
+
+* A set of [R](http://www.r-project.org) scripts to populate an indicator on [trends in B.C.'s greenhosue gas (GHG) emissions](http://www.env.gov.bc.ca/soe/indicators/sustainability/ghg-emissions).
+* `r get_badge("ghg-emissions-indicator")`
+
 
 #### [bc-population-indicator](https://github.com/bcgov/bc-population-indicator)
 
