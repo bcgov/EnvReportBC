@@ -19,7 +19,7 @@ get_badge <- function(repo) {
   html <- read_html(rawToChar(content(res)))
   tagged_badge_node <- tryCatch(rvest::html_node(html, "#user-content-devex-badge a"), 
                                 error = function(e) NULL)
-  if (is.null(tagged_badge_node)) {
+  if (is.null(tagged_badge_node) || length(tagged_badge_node) == 0) {
     ret <- find_badge(html)
   } else {
     ret <- paste0(gsub("\\n", "", as(tagged_badge_node, "character")), collapse = "")
