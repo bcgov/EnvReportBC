@@ -115,6 +115,12 @@ Environmental Reporting BC provides access to scientific data and information ab
 * An [R](http://www.r-project.org) package to facilitate analysis and visualization of British Columbia groundwater data.
 * `r get_badge("bcgroundwater")`
 
+## Internal Tools
+
+#### [process-air-data](https://github.com/bcgov/process-air-data)
+
+* Process hourly air quality data exported from Envista to format for DataBC record
+* `r get_badge("process-air-data")`
 
 
 ## License
