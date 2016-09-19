@@ -47,6 +47,7 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 ## Indicators
 
+
 #### [ghg-emissions-indicator](https://github.com/bcgov/ghg-emissions-indicator)
 
 * A set of [R](http://www.r-project.org) scripts to populate an indicator on [trends in B.C.'s greenhosue gas (GHG) emissions](http://www.env.gov.bc.ca/soe/indicators/sustainability/ghg-emissions).
@@ -62,6 +63,11 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 * A set of [R](http://www.r-project.org) scripts for summarising [trends and current amounts of protected lands and waters in British Columbia](http://www.env.gov.bc.ca/soe/indicators/land/protected-lands-and-waters).
 * `r get_badge("protected-lands-and-waters-analysis")`
+
+#### [climate-change-indicators-2015](https://github.com/bcgov/climate-change-indicators-2015)
+
+* A set of [R](http://www.r-project.org) scripts for creating data visualizations for [climate change indicators published on Environmental Reporting BC](http://www2.gov.bc.ca/gov/content?id=3C233B4F802A4FE186297EC52311E40C) in 2015.
+* `r get_badge("climate-change-indicators-2015")`
 
 #### [pm25-caaqs-analysis](https://github.com/bcgov/pm25-caaqs-analysis) 
 
