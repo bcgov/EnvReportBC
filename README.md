@@ -26,6 +26,11 @@ Indicators
 -   A set of [R](http://www.r-project.org) scripts for summarising [trends and current amounts of protected lands and waters in British Columbia](http://www.env.gov.bc.ca/soe/indicators/land/protected-lands-and-waters).
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/2058739d64533475b124c5ce3d19a3865562fd29/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f332e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="http://bcdevexchange.org/badge/3.svg" style="max-width:100%;"/> </a>
 
+#### [climate-change-indicators-2015](https://github.com/bcgov/climate-change-indicators-2015)
+
+-   A set of [R](http://www.r-project.org) scripts for creating data visualizations for [climate change indicators published on Environmental Reporting BC](http://www2.gov.bc.ca/gov/content?id=3C233B4F802A4FE186297EC52311E40C) in 2015.
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/2058739d64533475b124c5ce3d19a3865562fd29/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f332e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="http://bcdevexchange.org/badge/3.svg" style="max-width:100%;"/></a>
+
 #### [pm25-caaqs-analysis](https://github.com/bcgov/pm25-caaqs-analysis)
 
 -   A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of fine particulate matter in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/fine-pm.html)
