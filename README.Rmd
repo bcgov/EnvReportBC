@@ -86,6 +86,10 @@ Environmental Reporting BC provides access to scientific data and information ab
 * A set of [R](http://www.r-project.org) scripts to reproduce the 2013 analysis of [long-term trends in groundwater levels in B.C.](http://www.env.gov.bc.ca/soe/indicators/water/groundwater-levels.html)
 * `r get_badge("groundwater-levels")` 
 
+#### [tire-recycling-indicator](https://github.com/bcgov/tire-recycling-indicator) 
+
+* An [R](http://www.r-project.org) script to populate the indicator [Trends in B.C. Scrap Tire Recycling through Industry-led Product Stewardship (1991-2011)](http://www.env.gov.bc.ca/soe/indicators/sustainability/tire-recycling.html) 
+* `r get_badge("tire-recycling-indicator")` 
 
 
 ## [R](http://www.r-project.org) Packages
