@@ -11,6 +11,11 @@ Environmental Reporting BC provides access to scientific data and information ab
 Indicators
 ----------
 
+#### [water-quality-analysis](https://github.com/bcgov/water-quality-analysis)
+
+-   A set of [R](http://www.r-project.org) scripts to calculate the water quality index (WQI) and trends in selected water quality measures at a set of ambient monitoring stations in B.C.
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." src="https://camo.githubusercontent.com/ac1d59ca4e1646f4f3d90f79889db7abd3436517/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f322e737667" title="Being designed and built, but in the lab. May change, disappear, or be buggy." data-canonical-src="http://bcdevexchange.org/badge/2.svg" style="max-width:100%;"/> </a>
+
 #### [ghg-emissions-indicator](https://github.com/bcgov/ghg-emissions-indicator)
 
 -   A set of [R](http://www.r-project.org) scripts to populate an indicator on [trends in B.C.'s greenhosue gas (GHG) emissions](http://www.env.gov.bc.ca/soe/indicators/sustainability/ghg-emissions).
@@ -58,6 +63,11 @@ Indicators
 
 [R](http://www.r-project.org) Packages
 --------------------------------------
+
+#### [cccharts](https://github.com/bcgov/cccharts)
+
+-   An [R](www.r-project.org) package to plot climate change indicator data for British Columbia.
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"> <img src="https://camo.githubusercontent.com/ac1d59ca4e1646f4f3d90f79889db7abd3436517/687474703a2f2f626364657665786368616e67652e6f72672f62616467652f322e737667" alt="Travis-CI Build Status" data-canonical-src="http://bcdevexchange.org/badge/2.svg" style="max-width:100%;"/> </a>
 
 #### [rems](https://github.com/bcgov/rems)
 
