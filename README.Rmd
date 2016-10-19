@@ -47,6 +47,10 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 ## Indicators
 
+#### [water-quality-analysis](https://github.com/bcgov/water-quality-analysis)
+
+* A set of [R](http://www.r-project.org) scripts to calculate the water quality index (WQI) and trends in selected water quality measures at a set of ambient monitoring stations in B.C.
+* `r get_badge("water-quality-analysis")`
 
 #### [ghg-emissions-indicator](https://github.com/bcgov/ghg-emissions-indicator)
 
@@ -98,6 +102,10 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 
 ## [R](http://www.r-project.org) Packages
+
+#### [cccharts](https://github.com/bcgov/cccharts)
+* An [R](www.r-project.org) package to plot climate change indicator data for British Columbia.
+* `r get_badge("cccharts")`
 
 #### [rems](https://github.com/bcgov/rems)
 * An [R](www.r-project.org) package to download, import, and filter data from British Columbia's [Environmental Monitoring System (EMS)](http://www2.gov.bc.ca/gov/content?id=47D094EF8CF94B5A85F62F03D4956C0C) into R.
