@@ -1,7 +1,6 @@
 ---
-output:
-  md_document:
-    variant: markdown_github
+output: github_document
+html_preview: true
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file and re-knit-->
@@ -37,7 +36,11 @@ find_badge <- function(html) {
 
 ```
 
-<a rel="Delivery" href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." style="border-width:0" src="http://bcdevexchange.org/badge/3.svg" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." /></a>
+```{r echo=FALSE, results='asis'}
+## Insert 'inspiration', 'exploration', or 'delivery'
+envreportutils::devex_badge('delivery')
+```
+  
 
 # Environmental Reporting BC - Repository List
 Index of GitHub repositories administered by [Environmental Reporting BC](http://www2.gov.bc.ca/gov/content?id=FF80E0B985F245CEA62808414D78C41B)
