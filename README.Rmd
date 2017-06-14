@@ -6,16 +6,29 @@ html_preview: true
 <!-- README.md is generated from README.Rmd. Please edit that file and re-knit-->
 
 ```{r setup, echo=FALSE, warning=FALSE}
-library(httr) #accessing data from web
+library(gh)
 library(rvest, quietly = TRUE) #web scraping
 
+make_repo_info <- function(repo_name) {
+  repo_meta <- get_repo(repo_name)
+  repo_link <- paste0("#### [", repo_name, "](", repo_meta$repo$html_url, ")")
+  repo_description <- paste0("* ", repo_meta$repo$description)
+  badge <- get_badge(repo_meta$readme$message)
+  travis_status <- get_travis_status(repo_name, repo_meta$contents)
+  cat(repo_link, repo_description, badge, travis_status, "\n", sep = "\n")
+}
+
+get_repo <- function(repo_name) {
+  repo <- gh("/repos/bcgov/:repo", repo = repo_name)
+  contents <- gh("/repos/bcgov/:repo/contents/", repo = repo_name)
+  readme <- gh("/repos/bcgov/:repo/readme", repo = repo_name,
+                    .send_headers = c(Accept = "application/vnd.github.VERSION.html"))
+  list(repo = repo, contents = contents, readme = readme)           
+}
+
 ## Get the html of the badge from the readme of a bcgov repo
-get_badge <- function(repo) {
-  url <- paste0("https://api.github.com/repos/bcgov/", repo, "/readme")
-  res <- httr::GET(url = url,
-                   add_headers(Accept = "application/vnd.github.VERSION.html"))
-  stop_for_status(res)
-  html <- read_html(rawToChar(content(res)))
+get_badge <- function(html) {
+  html <- read_html(html)
   tagged_badge_node <- tryCatch(rvest::html_node(html, "#user-content-devex-badge a"), 
                                 error = function(e) NULL)
   if (is.null(tagged_badge_node) || length(tagged_badge_node) == 0) {
@@ -23,7 +36,7 @@ get_badge <- function(repo) {
   } else {
     ret <- paste0(gsub("\\n", "", as(tagged_badge_node, "character")), collapse = "")
   }
-  ret
+  paste0("* ", ret)
 }
 
 ## Find the badge from the 'a' nodes
@@ -34,13 +47,24 @@ find_badge <- function(html) {
   node_text[badge_nodes[1]]
 }
 
+get_travis_status <- function(repo_name, contents) {
+  if (any(vapply(contents, function(x) x$name == ".travis.yml", FUN.VALUE = logical(1)))) {
+    ret <- paste0("* [![Travis-CI Build Status](https://travis-ci.org/bcgov/", 
+                  repo_name, ".svg?branch=master)](https://travis-ci.org/bcgov/",
+                  repo_name, ")")
+  } else {
+    ret <- NULL
+  }
+  ret
+}
+
 ```
 
 ```{r echo=FALSE, results='asis'}
 ## Insert 'inspiration', 'exploration', or 'delivery'
 envreportutils::devex_badge('delivery')
 ```
-  
+
 
 # Environmental Reporting BC - Repository List
 Index of GitHub repositories administered by [Environmental Reporting BC](http://www2.gov.bc.ca/gov/content?id=FF80E0B985F245CEA62808414D78C41B)
@@ -50,103 +74,41 @@ Environmental Reporting BC provides access to scientific data and information ab
 
 ## Indicators
 
-#### [water-quality-analysis](https://github.com/bcgov/water-quality-analysis)
-
-* A set of [R](http://www.r-project.org) scripts to calculate the water quality index (WQI) and trends in selected water quality measures at a set of ambient monitoring stations in B.C.
-* `r get_badge("water-quality-analysis")`
-
-#### [ghg-emissions-indicator](https://github.com/bcgov/ghg-emissions-indicator)
-
-* A set of [R](http://www.r-project.org) scripts to populate an indicator on [trends in B.C.'s greenhosue gas (GHG) emissions](http://www.env.gov.bc.ca/soe/indicators/sustainability/ghg-emissions).
-* `r get_badge("ghg-emissions-indicator")`
-
-
-#### [bc-population-indicator](https://github.com/bcgov/bc-population-indicator)
-
-* A set of [R](http://www.r-project.org) scripts to populate an indicator on [trends in British Columbia's population size and distribution](http://www.env.gov.bc.ca/soe/indicators/sustainability/bc-population).
-* `r get_badge("bc-population-indicator")`
-
-#### [protected-lands-and-waters-analysis](https://github.com/bcgov/protected-lands-and-waters-analysis)
-
-* A set of [R](http://www.r-project.org) scripts for summarising [trends and current amounts of protected lands and waters in British Columbia](http://www.env.gov.bc.ca/soe/indicators/land/protected-lands-and-waters).
-* `r get_badge("protected-lands-and-waters-analysis")`
-
-#### [invasive-species-indicator](https://github.com/bcgov/invasive-species-indicator)
-
-* A set of [R](http://www.r-project.org) scripts to populate an indicator on [status of invasive species in British Columbia](http://www.env.gov.bc.ca/soe/indicators/plants-and-animals/invasive-species.html).
-* `r get_badge("invasive-species-indicator")`
-
-#### [climate-change-indicators-2015](https://github.com/bcgov/climate-change-indicators-2015)
-
-* A set of [R](http://www.r-project.org) scripts for creating data visualizations for [climate change indicators published on Environmental Reporting BC](http://www2.gov.bc.ca/gov/content?id=3C233B4F802A4FE186297EC52311E40C) in 2015.
-* `r get_badge("climate-change-indicators-2015")`
-
-#### [pm25-caaqs-analysis](https://github.com/bcgov/pm25-caaqs-analysis) 
-
-* A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of fine particulate matter in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/fine-pm.html)
-* `r get_badge("pm25-caaqs-analysis")` 
-
-
-#### [ozone-caaqs-analysis](https://github.com/bcgov/ozone-caaqs-analysis) 
-
-* A set of [R](http://www.r-project.org) scripts to reproduce the 2015 analysis of [status of ground-level ozone in B.C.](http://www.env.gov.bc.ca/soe/indicators/air/ozone.html)
-* `r get_badge("ozone-caaqs-analysis")` 
-
-
-#### [groundwater-levels](https://github.com/bcgov/groundwater-levels) 
-
-* A set of [R](http://www.r-project.org) scripts to reproduce the 2013 analysis of [long-term trends in groundwater levels in B.C.](http://www.env.gov.bc.ca/soe/indicators/water/groundwater-levels.html)
-* `r get_badge("groundwater-levels")` 
-
-#### [tire-recycling-indicator](https://github.com/bcgov/tire-recycling-indicator) 
-
-* An [R](http://www.r-project.org) script to populate the indicator [Trends in B.C. Scrap Tire Recycling through Industry-led Product Stewardship (1991-2011)](http://www.env.gov.bc.ca/soe/indicators/sustainability/tire-recycling.html) 
-* `r get_badge("tire-recycling-indicator")` 
+```{r echo=FALSE, results='asis'}
+indicators <- c("water-quality-analysis", 
+                "ghg-emissions-indicator", 
+                "bc-population-indicator",
+                "protected-lands-and-waters-analysis",
+                "invasive-species-indicator",
+                "climate-change-indicators-2015",
+                "pm25-caaqs-analysis",
+                "ozone-caaqs-analysis",
+                "groundwater-levels",
+                "tire-recycling-indicator")
+invisible(lapply(indicators, make_repo_info))
+```
 
 
 ## [R](http://www.r-project.org) Packages
 
-#### [cccharts](https://github.com/bcgov/cccharts)
-* An [R](www.r-project.org) package to plot climate change indicator data for British Columbia.
-* `r get_badge("cccharts")`
+```{r echo=FALSE, results='asis'}
+packages <- c("rems", 
+                "cccharts", 
+                "wqbc", 
+                "rcaaqs", 
+                "bcmaps", 
+                "envreportutils", 
+                "bcgroundwater")
+invisible(lapply(packages, make_repo_info))
+```
 
-#### [rems](https://github.com/bcgov/rems)
-* An [R](www.r-project.org) package to download, import, and filter data from British Columbia's [Environmental Monitoring System (EMS)](http://www2.gov.bc.ca/gov/content?id=47D094EF8CF94B5A85F62F03D4956C0C) into R.
-* `r get_badge("rems")`
-
-#### [wqbc](https://github.com/bcgov/wqbc)
-
-* An [R](www.r-project.org) package for water quality thresholds and [CCME](http://www.ccme.ca/en/resources/canadian_environmental_quality_guidelines/index.html) water quality index calculation for British Columbia.
-* `r get_badge("wqbc")`
-
-#### [rcaaqs](https://github.com/bcgov/rcaaqs)
-
-* An [R](www.r-project.org) package to facilitate the calculation of air quality metrics according to the Canadian Ambient Air Quality Standards ([CAAQS](http://www.ccme.ca/en/current_priorities/air/caaqs.html)).
-* `r get_badge("rcaaqs")`
-
-#### [bcmaps](https://github.com/bcgov/bcmaps)
-
-* An [R](http://www.r-project.org) package of some common map layers for British Columbia.
-* `r get_badge("bcmaps")`
-
-
-#### [envreportutils](https://github.com/bcgov/envreportutils)
-
-* An [R](http://www.r-project.org) package of various utilities and functions for common plotting tasks.
-* `r get_badge("envreportutils")` 
-
-
-#### [bcgroundwater](https://github.com/bcgov/bcgroundwater)
-
-* An [R](http://www.r-project.org) package to facilitate analysis and visualization of British Columbia groundwater data.
-* `r get_badge("bcgroundwater")`
 
 ## Internal Tools
 
-#### [process-air-data](https://github.com/bcgov/process-air-data)
-
-* Process hourly air quality data exported from Envista to format for DataBC record
-* `r get_badge("process-air-data")`
+```{r echo=FALSE, results='asis'}
+int_tools <- c("process-air-data")
+invisible(lapply(int_tools, make_repo_info))
+```
 
 ## Getting Help or Reporting an Issue
 
