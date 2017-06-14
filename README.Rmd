@@ -148,6 +148,14 @@ Environmental Reporting BC provides access to scientific data and information ab
 * Process hourly air quality data exported from Envista to format for DataBC record
 * `r get_badge("process-air-data")`
 
+### Getting Help or Reporting an Issue
+
+To report bugs/issues/feature requests, please file an [issue](https://github.com/bcgov/EnvReportBC/issues).
+
+### How to Contribute
+
+If you would like to contribute, please see our [CONTRIBUTING](CONTRIBUTING.md) guidelines.
+
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
