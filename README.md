@@ -65,6 +65,12 @@ Indicators
 [R](http://www.r-project.org) Packages
 --------------------------------------
 
+#### [bcgovr](https://github.com/bcgov/bcgovr)
+
+-   An R package to support development of R-based projects & packages following bcgov policies
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." src="https://camo.githubusercontent.com/c3bce22787b8dbeaa857420ac823c964cbb349d2/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f6578706c6f726174696f6e2e737667" title="Being designed and built, but in the lab. May change, disappear, or be buggy." data-canonical-src="https://assets.bcdevexchange.org/images/badges/exploration.svg" style="max-width:100%;"></a>
+-   [![Travis-CI Build Status](https://travis-ci.org/bcgov/bcgovr.svg?branch=master)](https://travis-ci.org/bcgov/bcgovr)
+
 #### [rems](https://github.com/bcgov/rems)
 
 -   Access Data From British Columbia's Environmental Monitoring System in R
@@ -97,7 +103,7 @@ Indicators
 
 #### [envreportutils](https://github.com/bcgov/envreportutils)
 
--   Various utilities, functions, and templates for common tasks in R
+-   ggplot2 themes & other R functions related to Environmental Reporting BC work flows
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 -   [![Travis-CI Build Status](https://travis-ci.org/bcgov/envreportutils.svg?branch=master)](https://travis-ci.org/bcgov/envreportutils)
 

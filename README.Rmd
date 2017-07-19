@@ -92,7 +92,8 @@ invisible(lapply(indicators, make_repo_info))
 ## [R](http://www.r-project.org) Packages
 
 ```{r echo=FALSE, results='asis'}
-packages <- c("rems", 
+packages <- c(  "bcgovr",
+                "rems", 
                 "cccharts", 
                 "wqbc", 
                 "rcaaqs", 
