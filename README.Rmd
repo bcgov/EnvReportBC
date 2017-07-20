@@ -69,7 +69,7 @@ envreportutils::devex_badge('delivery')
 # Environmental Reporting BC - Repository List
 Index of GitHub repositories administered by [Environmental Reporting BC](http://www2.gov.bc.ca/gov/content?id=FF80E0B985F245CEA62808414D78C41B)
 
-Environmental Reporting BC provides access to scientific data and information about our environment and how it relates to British Columbians. This information comes in the form of indicators that examine the state and trends of different aspects of our environment.
+Environmental Reporting BC provides access to data and information about our environment and how it relates to British Columbians. This information comes in the form of indicators that examine the state and trends of different aspects of our environment.
 
 
 ## Indicators

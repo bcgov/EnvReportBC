@@ -7,7 +7,7 @@ Environmental Reporting BC - Repository List
 
 Index of GitHub repositories administered by [Environmental Reporting BC](http://www2.gov.bc.ca/gov/content?id=FF80E0B985F245CEA62808414D78C41B)
 
-Environmental Reporting BC provides access to scientific data and information about our environment and how it relates to British Columbians. This information comes in the form of indicators that examine the state and trends of different aspects of our environment.
+Environmental Reporting BC provides access to data and information about our environment and how it relates to British Columbians. This information comes in the form of indicators that examine the state and trends of different aspects of our environment.
 
 Indicators
 ----------
@@ -73,7 +73,7 @@ Indicators
 
 #### [rems](https://github.com/bcgov/rems)
 
--   Access Data From British Columbia's Environmental Monitoring System in R
+-   An R package to access data from British Columbia's Environmental Monitoring System
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 -   [![Travis-CI Build Status](https://travis-ci.org/bcgov/rems.svg?branch=master)](https://travis-ci.org/bcgov/rems)
 
