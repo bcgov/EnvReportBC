@@ -62,7 +62,7 @@ get_travis_status <- function(repo_name, contents) {
 
 ```{r echo=FALSE, results='asis'}
 ## Insert 'inspiration', 'exploration', or 'delivery'
-envreportutils::devex_badge('delivery')
+bcgovr::devex_badge('delivery')
 ```
 
 
