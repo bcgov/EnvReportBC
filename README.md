@@ -54,7 +54,7 @@ Indicators
 
 #### [groundwater-levels](https://github.com/bcgov/groundwater-levels)
 
--   R scripts to analyze long-term trends of groundwater levels
+-   R scripts to analyze long-term trends of groundwater levels in B.C.
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 
 #### [tire-recycling-indicator](https://github.com/bcgov/tire-recycling-indicator)
@@ -67,7 +67,7 @@ Indicators
 
 #### [bcgovr](https://github.com/bcgov/bcgovr)
 
--   An R package to support development of R-based projects & package following bcgov open source policies
+-   An R package to support development of R-based projects & packages following bcgov open source policies
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 -   [![Travis-CI Build Status](https://travis-ci.org/bcgov/bcgovr.svg?branch=master)](https://travis-ci.org/bcgov/bcgovr)
 
@@ -91,7 +91,7 @@ Indicators
 
 #### [rcaaqs](https://github.com/bcgov/rcaaqs)
 
--   An R package to faciliate the calculation of air quality metrics according to Canadian Ambient Air Quality Standards
+-   An R package to facilitate the calculation of air quality metrics according to Canadian Ambient Air Quality Standards
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." src="https://camo.githubusercontent.com/c3bce22787b8dbeaa857420ac823c964cbb349d2/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f6578706c6f726174696f6e2e737667" title="Being designed and built, but in the lab. May change, disappear, or be buggy." data-canonical-src="https://assets.bcdevexchange.org/images/badges/exploration.svg" style="max-width:100%;"></a>
 -   [![Travis-CI Build Status](https://travis-ci.org/bcgov/rcaaqs.svg?branch=master)](https://travis-ci.org/bcgov/rcaaqs)
 
