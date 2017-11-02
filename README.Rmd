@@ -112,12 +112,6 @@ int_tools <- c("land-designations-shinyapp")
 invisible(lapply(int_tools, make_repo_info))
 ```
 
-## Deprecated
-
-```{r echo=FALSE, results='asis'}
-int_tools <- c("process-air-data")
-invisible(lapply(int_tools, make_repo_info))
-```
 
 ## Getting Help or Reporting an Issue
 
