@@ -67,14 +67,19 @@ Indicators
 -   R script for a trends in scrap tire recycling indicator publlished on Environmental Reporting BC
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 
-[R](http://www.r-project.org) Packages
---------------------------------------
+[R](http://www.r-project.org) Packages & Other Tools
+----------------------------------------------------
 
 #### [bcgovr](https://github.com/bcgov/bcgovr)
 
 -   An R package to support development of R-based projects & packages following bcgov open source policies
 -   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 -   [![Travis-CI Build Status](https://travis-ci.org/bcgov/bcgovr.svg?branch=master)](https://travis-ci.org/bcgov/bcgovr)
+
+#### [designatedlands](https://github.com/bcgov/designatedlands)
+
+-   Python script to combine conservation related spatial data from many sources to create a single 'Designated Lands' layer for British Columbia
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 
 #### [rems](https://github.com/bcgov/rems)
 

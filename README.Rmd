@@ -90,10 +90,11 @@ invisible(lapply(indicators, make_repo_info))
 ```
 
 
-## [R](http://www.r-project.org) Packages
+## [R](http://www.r-project.org) Packages & Other Tools
 
 ```{r echo=FALSE, results='asis'}
 packages <- c(  "bcgovr",
+                "designatedlands",
                 "rems", 
                 "cccharts", 
                 "wqbc", 
