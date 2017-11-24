@@ -43,7 +43,7 @@ get_badge <- function(html) {
 find_badge <- function(html) {
   a_nodes <- rvest::html_nodes(html, "a")
   node_text <- vapply(a_nodes, function(x) as(x, "character"), FUN.VALUE = character(1))
-  badge_nodes <- grep("BCDevExchange.+/projectstates.md", node_text)
+  badge_nodes <- grep("BCDevExchange.+/(README|projectstates).md", node_text)
   node_text[badge_nodes[1]]
 }
 
@@ -61,7 +61,7 @@ get_travis_status <- function(repo_name, contents) {
 ```
 
 ```{r echo=FALSE, results='asis'}
-## Insert 'inspiration', 'exploration', or 'delivery'
+## Insert 'inspiration', 'exploration', 'dormant', 'delivery' or 'retired'
 bcgovr::devex_badge('delivery')
 ```
 
