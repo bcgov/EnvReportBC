@@ -99,7 +99,8 @@ packages <- c(  "bcgovr",
                 "cccharts", 
                 "wqbc", 
                 "rcaaqs", 
-                "bcmaps", 
+                "bcmaps",
+                "bcmaps.rdata",
                 "envreportutils", 
                 "bcgroundwater")
 invisible(lapply(packages, make_repo_info))
