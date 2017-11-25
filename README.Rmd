@@ -29,7 +29,7 @@ get_repo <- function(repo_name) {
 ## Get the html of the badge from the readme of a bcgov repo
 get_badge <- function(html) {
   html <- read_html(html)
-  tagged_badge_node <- tryCatch(rvest::html_node(html, "#user-content-devex-badge a"), 
+  tagged_badge_node <- tryCatch(rvest::html_node(html, "#user-content-devex-badge"), 
                                 error = function(e) NULL)
   if (is.null(tagged_badge_node) || length(tagged_badge_node) == 0) {
     ret <- find_badge(html)
