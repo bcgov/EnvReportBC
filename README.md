@@ -7,7 +7,7 @@ Environmental Reporting BC - Repository List
 
 Index of GitHub repositories administered by [Environmental Reporting BC](http://www2.gov.bc.ca/gov/content?id=FF80E0B985F245CEA62808414D78C41B)
 
-Environmental Reporting BC provides access to data and information about our environment and how it relates to British Columbians. This information comes in the form of indicators that examine the state and trends of different aspects of our environment.
+Environmental Reporting BC provides access to information about our environment and how it relates to British Columbians. This information comes in the form of indicators that examine the state and trends of different aspects of our environment.
 
 Indicators
 ----------
@@ -16,11 +16,6 @@ Indicators
 
 -   R scripts for an analysis of land designations that contribute to conservation in B.C.
 -   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
-
-#### [water-quality-analysis](https://github.com/bcgov/water-quality-analysis)
-
--   R scripts to calculate water quality trends and the water quality index at selected ambient monitoring stations in B.C.
--   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." src="https://camo.githubusercontent.com/c3bce22787b8dbeaa857420ac823c964cbb349d2/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f6578706c6f726174696f6e2e737667" title="Being designed and built, but in the lab. May change, disappear, or be buggy." data-canonical-src="https://assets.bcdevexchange.org/images/badges/exploration.svg" style="max-width:100%;"></a>
 
 #### [ghg-emissions-indicator](https://github.com/bcgov/ghg-emissions-indicator)
 
@@ -45,7 +40,7 @@ Indicators
 #### [climate-change-indicators-2015](https://github.com/bcgov/climate-change-indicators-2015)
 
 -   R scripts for creating data visualizations for climate change indicators on Environmental Reporting BC
--   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
+-   <a id="user-content-devex-badge" href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 
 #### [pm25-caaqs-analysis](https://github.com/bcgov/pm25-caaqs-analysis)
 
@@ -67,43 +62,32 @@ Indicators
 -   R script for a trends in scrap tire recycling indicator publlished on Environmental Reporting BC
 -   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 
-[R](http://www.r-project.org) Packages & Other Tools
-----------------------------------------------------
+Supporting Analyses
+-------------------
+
+#### [bc-raster-roads](https://github.com/bcgov/bc-raster-roads)
+
+-   R scripts for road density analysis for British Columbia
+-   <a id="user-content-devex-badge" href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
+
+#### [water-quality-analysis](https://github.com/bcgov/water-quality-analysis)
+
+-   R scripts to calculate water quality trends and the water quality index at selected ambient monitoring stations in B.C.
+-   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." src="https://camo.githubusercontent.com/c3bce22787b8dbeaa857420ac823c964cbb349d2/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f6578706c6f726174696f6e2e737667" title="Being designed and built, but in the lab. May change, disappear, or be buggy." data-canonical-src="https://assets.bcdevexchange.org/images/badges/exploration.svg" style="max-width:100%;"></a>
+
+#### [process-air-data](https://github.com/bcgov/process-air-data)
+
+-   Process hourly air quality data exported from Envista to format for DataBC record
+-   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="No longer being used or supported, recommend not using an alternative option." src="https://camo.githubusercontent.com/73f703dfbb6364e386969d886c84ea4c8e794e6d/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f726574697265642e737667" title="No longer being used or supported, recommend not using an alternative option." data-canonical-src="https://assets.bcdevexchange.org/images/badges/retired.svg" style="max-width:100%;"></a>
+
+[R](http://www.r-project.org) Packages
+--------------------------------------
 
 #### [bcgovr](https://github.com/bcgov/bcgovr)
 
 -   An R package to support development of R-based projects & packages following bcgov open source policies
 -   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 -   [![Travis-CI Build Status](https://travis-ci.org/bcgov/bcgovr.svg?branch=master)](https://travis-ci.org/bcgov/bcgovr)
-
-#### [designatedlands](https://github.com/bcgov/designatedlands)
-
--   Python script to combine conservation related spatial data from many sources to create a single 'Designated Lands' layer for British Columbia
--   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
-
-#### [rems](https://github.com/bcgov/rems)
-
--   An R package to access data from British Columbia's Environmental Monitoring System
--   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
--   [![Travis-CI Build Status](https://travis-ci.org/bcgov/rems.svg?branch=master)](https://travis-ci.org/bcgov/rems)
-
-#### [cccharts](https://github.com/bcgov/cccharts)
-
--   An R package for creating data visualizations for a set of climate change indicators
--   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." src="https://camo.githubusercontent.com/c3bce22787b8dbeaa857420ac823c964cbb349d2/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f6578706c6f726174696f6e2e737667" title="Being designed and built, but in the lab. May change, disappear, or be buggy." data-canonical-src="https://assets.bcdevexchange.org/images/badges/exploration.svg" style="max-width:100%;"></a>
--   [![Travis-CI Build Status](https://travis-ci.org/bcgov/cccharts.svg?branch=master)](https://travis-ci.org/bcgov/cccharts)
-
-#### [wqbc](https://github.com/bcgov/wqbc)
-
--   An R package for water quality thresholds and index calculation for British Columbia
--   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." src="https://camo.githubusercontent.com/c3bce22787b8dbeaa857420ac823c964cbb349d2/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f6578706c6f726174696f6e2e737667" title="Being designed and built, but in the lab. May change, disappear, or be buggy." data-canonical-src="https://assets.bcdevexchange.org/images/badges/exploration.svg" style="max-width:100%;"></a>
--   [![Travis-CI Build Status](https://travis-ci.org/bcgov/wqbc.svg?branch=master)](https://travis-ci.org/bcgov/wqbc)
-
-#### [rcaaqs](https://github.com/bcgov/rcaaqs)
-
--   An R package to facilitate the calculation of air quality metrics according to Canadian Ambient Air Quality Standards
--   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
--   [![Travis-CI Build Status](https://travis-ci.org/bcgov/rcaaqs.svg?branch=master)](https://travis-ci.org/bcgov/rcaaqs)
 
 #### [bcmaps](https://github.com/bcgov/bcmaps)
 
@@ -117,17 +101,61 @@ Indicators
 -   <a id="user-content-devex-badge" href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 -   [![Travis-CI Build Status](https://travis-ci.org/bcgov/bcmaps.rdata.svg?branch=master)](https://travis-ci.org/bcgov/bcmaps.rdata)
 
-#### [envreportutils](https://github.com/bcgov/envreportutils)
+#### [rems](https://github.com/bcgov/rems)
 
--   An R package with ggplot2 themes & other functions related to Environmental Reporting BC work flows
+-   An R package to access data from British Columbia's Environmental Monitoring System
 -   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
--   [![Travis-CI Build Status](https://travis-ci.org/bcgov/envreportutils.svg?branch=master)](https://travis-ci.org/bcgov/envreportutils)
+-   [![Travis-CI Build Status](https://travis-ci.org/bcgov/rems.svg?branch=master)](https://travis-ci.org/bcgov/rems)
+
+#### [canwqdata](https://github.com/bcgov/canwqdata)
+
+-   R 📦 to download 🇨🇦 open water quality data
+-   <a id="user-content-devex-badge" href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." src="https://camo.githubusercontent.com/c3bce22787b8dbeaa857420ac823c964cbb349d2/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f6578706c6f726174696f6e2e737667" title="Being designed and built, but in the lab. May change, disappear, or be buggy." data-canonical-src="https://assets.bcdevexchange.org/images/badges/exploration.svg" style="max-width:100%;"></a>
+-   [![Travis-CI Build Status](https://travis-ci.org/bcgov/canwqdata.svg?branch=master)](https://travis-ci.org/bcgov/canwqdata)
+
+#### [wqindex](https://github.com/bcgov/wqindex)
+
+-   An R package to calculate the CCME Water Quality Index
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." src="https://camo.githubusercontent.com/c3bce22787b8dbeaa857420ac823c964cbb349d2/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f6578706c6f726174696f6e2e737667" title="Being designed and built, but in the lab. May change, disappear, or be buggy." data-canonical-src="https://assets.bcdevexchange.org/images/badges/exploration.svg" style="max-width:100%;"></a>
+-   [![Travis-CI Build Status](https://travis-ci.org/bcgov/wqindex.svg?branch=master)](https://travis-ci.org/bcgov/wqindex)
+
+#### [wqbc](https://github.com/bcgov/wqbc)
+
+-   An R package for water quality thresholds and index calculation for British Columbia
+-   <a href="https://github.com/BCDevExchange/docs/blob/master/discussion/projectstates.md"><img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." src="https://camo.githubusercontent.com/c3bce22787b8dbeaa857420ac823c964cbb349d2/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f6578706c6f726174696f6e2e737667" title="Being designed and built, but in the lab. May change, disappear, or be buggy." data-canonical-src="https://assets.bcdevexchange.org/images/badges/exploration.svg" style="max-width:100%;"></a>
+-   [![Travis-CI Build Status](https://travis-ci.org/bcgov/wqbc.svg?branch=master)](https://travis-ci.org/bcgov/wqbc)
 
 #### [bcgroundwater](https://github.com/bcgov/bcgroundwater)
 
 -   An R package to facilitate analysis and visualization of groundwater data from the British Columbia groundwater observation well network
 -   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 -   [![Travis-CI Build Status](https://travis-ci.org/bcgov/bcgroundwater.svg?branch=master)](https://travis-ci.org/bcgov/bcgroundwater)
+
+#### [rcaaqs](https://github.com/bcgov/rcaaqs)
+
+-   An R package to facilitate the calculation of air quality metrics according to Canadian Ambient Air Quality Standards
+-   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
+-   [![Travis-CI Build Status](https://travis-ci.org/bcgov/rcaaqs.svg?branch=master)](https://travis-ci.org/bcgov/rcaaqs)
+
+#### [envreportutils](https://github.com/bcgov/envreportutils)
+
+-   An R package with ggplot2 themes & other functions related to Environmental Reporting BC work flows
+-   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
+-   [![Travis-CI Build Status](https://travis-ci.org/bcgov/envreportutils.svg?branch=master)](https://travis-ci.org/bcgov/envreportutils)
+
+#### [cccharts](https://github.com/bcgov/cccharts)
+
+-   An R package for creating data visualizations for a set of climate change indicators
+-   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="Being designed and built, but in the lab. May change, disappear, or be buggy." src="https://camo.githubusercontent.com/c3bce22787b8dbeaa857420ac823c964cbb349d2/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f6578706c6f726174696f6e2e737667" title="Being designed and built, but in the lab. May change, disappear, or be buggy." data-canonical-src="https://assets.bcdevexchange.org/images/badges/exploration.svg" style="max-width:100%;"></a>
+-   [![Travis-CI Build Status](https://travis-ci.org/bcgov/cccharts.svg?branch=master)](https://travis-ci.org/bcgov/cccharts)
+
+[Python](https://www.python.org/) Packages
+------------------------------------------
+
+#### [designatedlands](https://github.com/bcgov/designatedlands)
+
+-   Python script to combine conservation related spatial data from many sources to create a single 'Designated Lands' layer for British Columbia
+-   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 
 Interactive Data Visualizations
 -------------------------------

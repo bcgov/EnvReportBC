@@ -69,14 +69,13 @@ bcgovr::devex_badge('delivery')
 # Environmental Reporting BC - Repository List
 Index of GitHub repositories administered by [Environmental Reporting BC](http://www2.gov.bc.ca/gov/content?id=FF80E0B985F245CEA62808414D78C41B)
 
-Environmental Reporting BC provides access to data and information about our environment and how it relates to British Columbians. This information comes in the form of indicators that examine the state and trends of different aspects of our environment.
+Environmental Reporting BC provides access to information about our environment and how it relates to British Columbians. This information comes in the form of indicators that examine the state and trends of different aspects of our environment.
 
 
 ## Indicators
 
 ```{r echo=FALSE, results='asis'}
 indicators <- c("land-designations-indicator",
-                "water-quality-analysis", 
                 "ghg-emissions-indicator", 
                 "bc-population-indicator",
                 "protected-lands-and-waters-analysis",
@@ -89,20 +88,39 @@ indicators <- c("land-designations-indicator",
 invisible(lapply(indicators, make_repo_info))
 ```
 
-
-## [R](http://www.r-project.org) Packages & Other Tools
+## Supporting Analyses
 
 ```{r echo=FALSE, results='asis'}
-packages <- c(  "bcgovr",
-                "designatedlands",
-                "rems", 
-                "cccharts", 
-                "wqbc", 
-                "rcaaqs", 
+analyses <- c("bc-raster-roads",
+              "water-quality-analysis",
+              "process-air-data"
+                )
+invisible(lapply(analyses, make_repo_info))
+```
+
+## [R](http://www.r-project.org) Packages
+
+```{r echo=FALSE, results='asis'}
+rpackages <- c( "bcgovr",
                 "bcmaps",
                 "bcmaps.rdata",
-                "envreportutils", 
-                "bcgroundwater")
+                "rems",
+                "canwqdata", 
+                "wqindex", 
+                "wqbc", 
+                "bcgroundwater",
+                "rcaaqs",
+                "envreportutils",
+                "cccharts" 
+                )
+invisible(lapply(rpackages, make_repo_info))
+```
+
+
+## [Python](https://www.python.org/) Packages
+
+```{r echo=FALSE, results='asis'}
+packages <- c("designatedlands")
 invisible(lapply(packages, make_repo_info))
 ```
 
