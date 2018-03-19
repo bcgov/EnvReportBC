@@ -67,7 +67,7 @@ Supporting Analyses
 
 #### [bc-raster-roads](https://github.com/bcgov/bc-raster-roads)
 
--   R scripts for road density analysis for British Columbia
+-   R scripts for generating a raster spatial layer with length of roads per hectare for B.C.
 -   <a id="user-content-devex-badge" href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 
 #### [water-quality-analysis](https://github.com/bcgov/water-quality-analysis)
