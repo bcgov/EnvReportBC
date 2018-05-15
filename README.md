@@ -57,6 +57,11 @@ Indicators
 -   R scripts to analyze long-term trends of groundwater levels in B.C.
 -   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 
+#### [msw-disposal-indicator](https://github.com/bcgov/msw-disposal-indicator)
+
+-   R scripts for a municipal solid waste disposal indicator for Environmental Reporting BC
+-   <a id="user-content-devex-badge" href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
+
 #### [tire-recycling-indicator](https://github.com/bcgov/tire-recycling-indicator)
 
 -   R script for a trends in scrap tire recycling indicator publlished on Environmental Reporting BC
@@ -85,7 +90,7 @@ Supporting Analyses
 
 #### [bcgovr](https://github.com/bcgov/bcgovr)
 
--   An R package to support development of R-based projects & packages following bcgov open source policies
+-   An R package to automate set up and sharing of R projects in bcgov GitHub following bcgov guidelines
 -   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 -   [![Travis-CI Build Status](https://travis-ci.org/bcgov/bcgovr.svg?branch=master)](https://travis-ci.org/bcgov/bcgovr)
 
@@ -140,7 +145,10 @@ Supporting Analyses
 #### [envreportutils](https://github.com/bcgov/envreportutils)
 
 -   An R package with ggplot2 themes & other functions related to Environmental Reporting BC work flows
--   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
+-   <p>
+    <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a><a href="https://travis-ci.org/bcgov/envreportutils" rel="nofollow"><img src="https://camo.githubusercontent.com/6f7c6e78de7f010a58e3df05150e87f8d799126d/68747470733a2f2f7472617669732d63692e6f72672f6263676f762f656e767265706f72747574696c732e7376673f6272616e63683d6d6173746572" alt="Travis-CI Build Status" data-canonical-src="https://travis-ci.org/bcgov/envreportutils.svg?branch=master" style="max-width:100%;"></a>
+    </p>
+
 -   [![Travis-CI Build Status](https://travis-ci.org/bcgov/envreportutils.svg?branch=master)](https://travis-ci.org/bcgov/envreportutils)
 
 #### [cccharts](https://github.com/bcgov/cccharts)

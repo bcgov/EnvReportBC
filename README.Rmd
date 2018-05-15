@@ -62,7 +62,7 @@ get_travis_status <- function(repo_name, contents) {
 
 ```{r echo=FALSE, results='asis'}
 ## Insert 'inspiration', 'exploration', 'dormant', 'delivery' or 'retired'
-bcgovr::devex_badge('delivery')
+bcgovr::insert_bcgov_devex_badge('delivery')
 ```
 
 
@@ -84,6 +84,7 @@ indicators <- c("land-designations-indicator",
                 "pm25-caaqs-analysis",
                 "ozone-caaqs-analysis",
                 "groundwater-levels",
+                "msw-disposal-indicator",
                 "tire-recycling-indicator")
 invisible(lapply(indicators, make_repo_info))
 ```
