@@ -14,22 +14,22 @@ Indicators
 
 #### [land-designations-indicator](https://github.com/bcgov/land-designations-indicator)
 
--   R scripts for an analysis of land designations that contribute to conservation in B.C.
+-   R scripts for an indicator on land designations that contribute to conservation in B.C. published on Environmental Reporting BC
 -   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 
 #### [ghg-emissions-indicator](https://github.com/bcgov/ghg-emissions-indicator)
 
--   R scripts for a GHG emissions indicator for Environmental Reporting BC
+-   R scripts for a GHG emissions indicator published on Environmental Reporting BC
 -   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 
 #### [bc-population-indicator](https://github.com/bcgov/bc-population-indicator)
 
--   R scripts for an indicator on trends in B.C.'s population size & distribution for Environmental Reporting BC
+-   R scripts for an indicator on trends in B.C.'s population size & distribution published on Environmental Reporting BC
 -   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 
 #### [protected-lands-and-waters-analysis](https://github.com/bcgov/protected-lands-and-waters-analysis)
 
--   R scripts for summarising protected lands and waters in B.C.
+-   R scripts for an indicator summarising protected lands and waters in B.C. published on Environmental Reporting BC
 -   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="No longer being used or supported, recommend not using an alternative option." src="https://camo.githubusercontent.com/73f703dfbb6364e386969d886c84ea4c8e794e6d/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f726574697265642e737667" title="No longer being used or supported, recommend not using an alternative option." data-canonical-src="https://assets.bcdevexchange.org/images/badges/retired.svg" style="max-width:100%;"></a>
 
 #### [invasive-species-indicator](https://github.com/bcgov/invasive-species-indicator)
@@ -39,22 +39,22 @@ Indicators
 
 #### [climate-change-indicators-2015](https://github.com/bcgov/climate-change-indicators-2015)
 
--   R scripts for creating data visualizations for climate change indicators on Environmental Reporting BC
+-   R scripts for creating data visualizations for climate change indicators published on Environmental Reporting BC
 -   <a id="user-content-devex-badge" href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 
 #### [pm25-caaqs-analysis](https://github.com/bcgov/pm25-caaqs-analysis)
 
--   R scripts to calculate the Canadian Ambient Air Quality Standards (CAAQS) for fine particulate matter (PM2.5) for B.C. (2011-2013)
+-   R scripts to calculate the Canadian Ambient Air Quality Standards (CAAQS) for fine particulate matter (PM2.5) for B.C. published on Environmental Reporting BC
 -   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 
 #### [ozone-caaqs-analysis](https://github.com/bcgov/ozone-caaqs-analysis)
 
--   R scripts to calculate the Canadian Ambient Air Quality Standards (CAAQS) for Ozone for B.C. (2011-2013)
+-   R scripts to calculate the Canadian Ambient Air Quality Standards (CAAQS) for Ozone for B.C. published on Environmental Reporting BC
 -   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 
 #### [groundwater-levels](https://github.com/bcgov/groundwater-levels)
 
--   R scripts to analyze long-term trends of groundwater levels in B.C.
+-   R scripts for an indicator on long-term trends of groundwater levels in B.C. published on Environmental Reporting BC
 -   <a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
 
 #### [msw-disposal-indicator](https://github.com/bcgov/msw-disposal-indicator)
