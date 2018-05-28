@@ -146,10 +146,10 @@ Indicators
 * R script for a trends in scrap tire recycling indicator publlished on Environmental Reporting BC
 * <div id="user-content-devex-badge"><a href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a></div>
 -->
-R & Python Packages
--------------------
+[R](http://www.r-project.org) & [Python](https://www.python.org/) Packages
+--------------------------------------------------------------------------
 
-<details><summary><strong>[R](http://www.r-project.org)</strong></summary>
+<details><summary><strong>R</strong></summary>
 
 #### [bcgovr](https://github.com/bcgov/bcgovr)
 
@@ -222,7 +222,7 @@ R & Python Packages
 
 </details>
 
-<details><summary><strong>[Python](https://www.python.org/)</strong></summary>
+<details><summary><strong>Python</strong></summary>
 
 #### [designatedlands](https://github.com/bcgov/designatedlands)
 
@@ -314,12 +314,16 @@ Supporting & Other Analyses
 
 </details>
 
-<details><summary><strong>Other Analyses</strong></summary>
+<details><summary><strong>Supporting Analyses</strong></summary>
 
 #### [bc-raster-roads](https://github.com/bcgov/bc-raster-roads)
 
 -   R scripts for generating a raster spatial layer with length of roads per hectare for B.C.
 -   <a id="user-content-devex-badge" href="https://github.com/BCDevExchange/assets/blob/master/README.md"><img alt="In production, but maybe in Alpha or Beta. Intended to persist and be supported." src="https://camo.githubusercontent.com/0c7475375ad768720e6224df62e52b4a11c935e5/68747470733a2f2f6173736574732e626364657665786368616e67652e6f72672f696d616765732f6261646765732f64656c69766572792e737667" title="In production, but maybe in Alpha or Beta. Intended to persist and be supported." data-canonical-src="https://assets.bcdevexchange.org/images/badges/delivery.svg" style="max-width:100%;"></a>
+
+</details>
+
+<details><summary><strong>Other Stuff</strong></summary>
 
 #### [envreportbc-snippets](https://github.com/bcgov/envreportbc-snippets)
 

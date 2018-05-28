@@ -22,7 +22,7 @@ get_repo <- function(repo_name) {
   repo <- gh("/repos/bcgov/:repo", repo = repo_name)
   contents <- gh("/repos/bcgov/:repo/contents/", repo = repo_name)
   readme <- gh("/repos/bcgov/:repo/readme", repo = repo_name,
-                    .send_headers = c(Accept = "application/vnd.github.VERSION.html"))
+               .send_headers = c(Accept = "application/vnd.github.VERSION.html"))
   list(repo = repo, contents = contents, readme = readme)           
 }
 
@@ -76,10 +76,9 @@ Environmental Reporting BC provides access to information about our environment 
 <details><summary><strong>Air</strong></summary>
 
 ```{r echo=FALSE, results='asis'}
-air_indicators <- c(
-                "ozone-caaqs-indicator",
-                "pm25-caaqs-indicator"
-                )
+air_indicators <- c("ozone-caaqs-indicator",
+                    "pm25-caaqs-indicator"
+)
 invisible(lapply(air_indicators, make_repo_info))
 ```
 
@@ -89,8 +88,8 @@ invisible(lapply(air_indicators, make_repo_info))
 
 ```{r echo=FALSE, results='asis'}
 cc_indicators <- c(
-                "climate-change-indicators-2015"
-                )
+  "climate-change-indicators-2015"
+)
 invisible(lapply(cc_indicators, make_repo_info))
 ```
 
@@ -100,9 +99,9 @@ invisible(lapply(cc_indicators, make_repo_info))
 
 ```{r echo=FALSE, results='asis'}
 land_indicators <- c(
-                "land-designations-indicator",
-                "protected-lands-and-waters-indicator"
-                )
+  "land-designations-indicator",
+  "protected-lands-and-waters-indicator"
+)
 invisible(lapply(land_indicators, make_repo_info))
 ```
 
@@ -112,8 +111,8 @@ invisible(lapply(land_indicators, make_repo_info))
 
 ```{r echo=FALSE, results='asis'}
 pa_indicators <- c(
-                    "invasive-species-indicator"
-                     )
+  "invasive-species-indicator"
+)
 invisible(lapply(pa_indicators, make_repo_info))
 ```
 
@@ -124,10 +123,10 @@ invisible(lapply(pa_indicators, make_repo_info))
 
 ```{r echo=FALSE, results='asis'}
 susty_indicators <- c("bc-population-indicator",
-                "ghg-emissions-indicator", 
-                "msw-disposal-indicator",
-                "tire-recycling-indicator"
-                )
+                      "ghg-emissions-indicator", 
+                      "msw-disposal-indicator",
+                      "tire-recycling-indicator"
+)
 invisible(lapply(susty_indicators, make_repo_info))
 ```
 
@@ -138,7 +137,7 @@ invisible(lapply(susty_indicators, make_repo_info))
 
 ```{r echo=FALSE, results='asis'}
 water_indicators <- c("groundwater-levels-indicator"
-                      )
+)
 invisible(lapply(water_indicators, make_repo_info))
 ```
 
@@ -147,26 +146,26 @@ invisible(lapply(water_indicators, make_repo_info))
 <!--
 ```{r echo=FALSE, results='asis'}
 indicators <- c("bc-population-indicator",
-                "climate-change-indicators-2015",
-                "ghg-emissions-indicator", 
-                "groundwater-levels-indicator",
-                "invasive-species-indicator",
-                "land-designations-indicator",
-                "msw-disposal-indicator",
-                "ozone-caaqs-indicator",
-                "pm25-caaqs-indicator",
-                "protected-lands-and-waters-indicator",
-                "tire-recycling-indicator"
-                )
+"climate-change-indicators-2015",
+"ghg-emissions-indicator", 
+"groundwater-levels-indicator",
+"invasive-species-indicator",
+"land-designations-indicator",
+"msw-disposal-indicator",
+"ozone-caaqs-indicator",
+"pm25-caaqs-indicator",
+"protected-lands-and-waters-indicator",
+"tire-recycling-indicator"
+)
 invisible(lapply(indicators, make_repo_info))
 ```
 -->
 
 
 
-## R & Python Packages
+## [R](http://www.r-project.org) & [Python](https://www.python.org/) Packages
 
-<details><summary><strong>[R](http://www.r-project.org)</strong></summary>
+<details><summary><strong>R</strong></summary>
 
 ```{r echo=FALSE, results='asis'}
 rpackages <- c( "bcgovr",
@@ -180,38 +179,38 @@ rpackages <- c( "bcgovr",
                 "rems",
                 "wqbc",
                 "wqindex"
-                )
+)
 invisible(lapply(rpackages, make_repo_info))
 ```
 
 </details>
 
-<details><summary><strong>[Python](https://www.python.org/)</strong></summary>
+<details><summary><strong>Python</strong></summary>
 
 ```{r echo=FALSE, results='asis'}
 pypackages <- c( 
-                "designatedlands"
-                )
+  "designatedlands"
+)
 invisible(lapply(pypackages, make_repo_info))
 ```
 
 </details>
-  
+
 <!--
 ```{r echo=FALSE, results='asis'}
 rpackages <- c( "bcgovr",
-                "bcgroundwater",
-                "bcmaps",
-                "bcmaps.rdata",
-                "canwqdata", 
-                "cccharts",
-                "designatedlands",
-                "envreportutils",
-                "rcaaqs",
-                "rems",
-                "wqbc",
-                "wqindex"
-                )
+"bcgroundwater",
+"bcmaps",
+"bcmaps.rdata",
+"canwqdata", 
+"cccharts",
+"designatedlands",
+"envreportutils",
+"rcaaqs",
+"rems",
+"wqbc",
+"wqindex"
+)
 invisible(lapply(rpackages, make_repo_info))
 ```
 -->
@@ -228,12 +227,22 @@ invisible(lapply(int_tools, make_repo_info))
 </details>
 
 
-<details><summary><strong>Other Analyses</strong></summary>
+<details><summary><strong>Supporting Analyses</strong></summary>
 
 ```{r echo=FALSE, results='asis'}
-analyses <- c("bc-raster-roads",
-              "envreportbc-snippets"
-              )
+analyses <- c(
+  "bc-raster-roads"
+)
+invisible(lapply(analyses, make_repo_info))
+```
+
+</details>
+
+<details><summary><strong>Other Stuff</strong></summary>
+
+```{r echo=FALSE, results='asis'}
+analyses <- c("envreportbc-snippets"
+)
 invisible(lapply(analyses, make_repo_info))
 ```
 
