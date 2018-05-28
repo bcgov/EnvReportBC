@@ -71,68 +71,173 @@ Index of GitHub repositories administered by [Environmental Reporting BC](http:/
 
 Environmental Reporting BC provides access to information about our environment and how it relates to British Columbians. This information comes in the form of indicators that examine the state and trends of different aspects of our environment.
 
-
 ## Indicators
 
+<details><summary><strong>Air</strong></summary>
+
 ```{r echo=FALSE, results='asis'}
-indicators <- c("land-designations-indicator",
+air_indicators <- c(
+                "ozone-caaqs-indicator",
+                "pm25-caaqs-indicator"
+                )
+invisible(lapply(air_indicators, make_repo_info))
+```
+
+</details>
+
+<details><summary><strong>Climate Change</strong></summary>
+
+```{r echo=FALSE, results='asis'}
+cc_indicators <- c(
+                "climate-change-indicators-2015"
+                )
+invisible(lapply(cc_indicators, make_repo_info))
+```
+
+</details>
+
+<details><summary><strong>Land & Forests</strong></summary>
+
+```{r echo=FALSE, results='asis'}
+land_indicators <- c(
+                "land-designations-indicator",
+                "protected-lands-and-waters-indicator"
+                )
+invisible(lapply(land_indicators, make_repo_info))
+```
+
+</details>
+
+<details><summary><strong>Plants & Animals</strong></summary>
+
+```{r echo=FALSE, results='asis'}
+pa_indicators <- c(
+                    "invasive-species-indicator"
+                     )
+invisible(lapply(pa_indicators, make_repo_info))
+```
+
+</details>
+
+
+<details><summary><strong>Sustainability</strong></summary>
+
+```{r echo=FALSE, results='asis'}
+susty_indicators <- c("bc-population-indicator",
                 "ghg-emissions-indicator", 
-                "bc-population-indicator",
-                "protected-lands-and-waters-analysis",
-                "invasive-species-indicator",
-                "climate-change-indicators-2015",
-                "pm25-caaqs-analysis",
-                "ozone-caaqs-analysis",
-                "groundwater-levels",
                 "msw-disposal-indicator",
-                "tire-recycling-indicator")
+                "tire-recycling-indicator"
+                )
+invisible(lapply(susty_indicators, make_repo_info))
+```
+
+</details>
+
+
+<details><summary><strong>Water</strong></summary>
+
+```{r echo=FALSE, results='asis'}
+water_indicators <- c("groundwater-levels-indicator"
+                      )
+invisible(lapply(water_indicators, make_repo_info))
+```
+
+</details>
+
+<!--
+```{r echo=FALSE, results='asis'}
+indicators <- c("bc-population-indicator",
+                "climate-change-indicators-2015",
+                "ghg-emissions-indicator", 
+                "groundwater-levels-indicator",
+                "invasive-species-indicator",
+                "land-designations-indicator",
+                "msw-disposal-indicator",
+                "ozone-caaqs-indicator",
+                "pm25-caaqs-indicator",
+                "protected-lands-and-waters-indicator",
+                "tire-recycling-indicator"
+                )
 invisible(lapply(indicators, make_repo_info))
 ```
+-->
 
-## Supporting Analyses
 
-```{r echo=FALSE, results='asis'}
-analyses <- c("bc-raster-roads",
-              "water-quality-analysis",
-              "process-air-data"
-                )
-invisible(lapply(analyses, make_repo_info))
-```
 
-## [R](http://www.r-project.org) Packages
+## R & Python Packages
+
+<details><summary><strong>[R](http://www.r-project.org)</strong></summary>
 
 ```{r echo=FALSE, results='asis'}
 rpackages <- c( "bcgovr",
+                "bcgroundwater",
                 "bcmaps",
                 "bcmaps.rdata",
-                "rems",
                 "canwqdata", 
-                "wqindex", 
-                "wqbc", 
-                "bcgroundwater",
-                "rcaaqs",
+                "cccharts",
                 "envreportutils",
-                "cccharts" 
+                "rcaaqs",
+                "rems",
+                "wqbc",
+                "wqindex"
                 )
 invisible(lapply(rpackages, make_repo_info))
 ```
 
+</details>
 
-## [Python](https://www.python.org/) Packages
+<details><summary><strong>[Python](https://www.python.org/)</strong></summary>
 
 ```{r echo=FALSE, results='asis'}
-packages <- c("designatedlands")
-invisible(lapply(packages, make_repo_info))
+pypackages <- c( 
+                "designatedlands"
+                )
+invisible(lapply(pypackages, make_repo_info))
 ```
 
+</details>
+  
+<!--
+```{r echo=FALSE, results='asis'}
+rpackages <- c( "bcgovr",
+                "bcgroundwater",
+                "bcmaps",
+                "bcmaps.rdata",
+                "canwqdata", 
+                "cccharts",
+                "designatedlands",
+                "envreportutils",
+                "rcaaqs",
+                "rems",
+                "wqbc",
+                "wqindex"
+                )
+invisible(lapply(rpackages, make_repo_info))
+```
+-->
 
-## Interactive Data Visualizations
+## Supporting & Other Analyses
+
+<details><summary><strong>Interactive Data Visualizations</strong></summary>
 
 ```{r echo=FALSE, results='asis'}
 int_tools <- c("land-designations-shinyapp")
 invisible(lapply(int_tools, make_repo_info))
 ```
 
+</details>
+
+
+<details><summary><strong>Other Analyses</strong></summary>
+
+```{r echo=FALSE, results='asis'}
+analyses <- c("bc-raster-roads",
+              "envreportbc-snippets"
+              )
+invisible(lapply(analyses, make_repo_info))
+```
+
+</details>
 
 ## Getting Help or Reporting an Issue
 
