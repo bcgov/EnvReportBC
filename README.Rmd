@@ -27,8 +27,8 @@ make_repo_info <- function(repo_name) {
   repo_link <- paste0("#### [", repo_name, "](", repo_meta$repo$html_url, ")")
   repo_description <- paste0("* ", repo_meta$repo$description)
   badge <- get_badge(repo_meta$readme$message)
-  travis_status <- get_travis_status(repo_name, repo_meta$contents)
-  cat(repo_link, repo_description, badge, travis_status, "\n", sep = "\n")
+#  travis_status <- get_travis_status(repo_name, repo_meta$contents)
+  cat(repo_link, repo_description, badge, "\n", sep = "\n")
 }
 
 get_repo <- function(repo_name) {
@@ -60,16 +60,16 @@ find_badge <- function(html) {
   node_text[badge_nodes[1]]
 }
 
-get_travis_status <- function(repo_name, contents) {
-  if (any(vapply(contents, function(x) x$name == ".travis.yml", FUN.VALUE = logical(1)))) {
-    ret <- paste0("* [![Travis-CI Build Status](https://travis-ci.org/bcgov/", 
-                  repo_name, ".svg?branch=master)](https://travis-ci.org/bcgov/",
-                  repo_name, ")")
-  } else {
-    ret <- NULL
-  }
-  ret
-}
+# get_travis_status <- function(repo_name, contents) {
+#   if (any(vapply(contents, function(x) x$name == ".travis.yml", FUN.VALUE = logical(1)))) {
+#     ret <- paste0("* [![Travis-CI Build Status](https://travis-ci.org/bcgov/", 
+#                   repo_name, ".svg?branch=master)](https://travis-ci.org/bcgov/",
+#                   repo_name, ")")
+#   } else {
+#     ret <- NULL
+#   }
+#   ret
+# }
 
 ```
 
