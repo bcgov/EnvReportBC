@@ -126,7 +126,9 @@ invisible(lapply(land_indicators, make_repo_info))
 
 ```{r echo=FALSE, results='asis'}
 pa_indicators <- c(
-  "invasive-species-indicator"
+  "invasive-species-indicator",
+  "native-species-rank-indicator",
+  "grizzly-bear-status-indicator"
 )
 invisible(lapply(pa_indicators, make_repo_info))
 ```
@@ -140,7 +142,8 @@ invisible(lapply(pa_indicators, make_repo_info))
 susty_indicators <- c("bc-population-indicator",
                       "ghg-emissions-indicator", 
                       "msw-disposal-indicator",
-                      "tire-recycling-indicator"
+                      "tire-recycling-indicator",
+                      "recycling-indicator"
 )
 invisible(lapply(susty_indicators, make_repo_info))
 ```
@@ -151,7 +154,8 @@ invisible(lapply(susty_indicators, make_repo_info))
 <details><summary><strong>Water</strong></summary>
 
 ```{r echo=FALSE, results='asis'}
-water_indicators <- c("groundwater-levels-indicator"
+water_indicators <- c("groundwater-levels-indicator",
+                      "water-quality-analysis"
 )
 invisible(lapply(water_indicators, make_repo_info))
 ```
@@ -183,17 +187,19 @@ invisible(lapply(indicators, make_repo_info))
 <details><summary><strong>R</strong></summary>
 
 ```{r echo=FALSE, results='asis'}
-rpackages <- c( "bcgovr",
-                "bcgroundwater",
-                "bcmaps",
-                "bcmaps.rdata",
-                "canwqdata", 
-                "cccharts",
-                "envreportutils",
-                "rcaaqs",
-                "rems",
-                "wqbc",
-                "wqindex"
+rpackages <- c("bcdata",
+               "bcgovr",
+               "bcgroundwater",
+               "bcmaps",
+               "bcmapsdata",
+               "canwqdata", 
+               "cccharts",
+               "envreportutils",
+               "rcaaqs",
+               "rems",
+               "wqbc",
+               "wqindex",
+               "ranktrends"
 )
 invisible(lapply(rpackages, make_repo_info))
 ```
